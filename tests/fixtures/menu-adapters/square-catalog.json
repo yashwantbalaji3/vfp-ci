@@ -1,0 +1,13 @@
+{
+  "objects": [
+    { "type": "ITEM", "id": "A", "item_data": { "name": "Falafel Wrap", "description": "Never copied",
+      "variations": [{ "item_variation_data": { "name": "Regular", "price_money": { "amount": 1200, "currency": "USD" } } }],
+      "food_and_beverage_details": { "dietary_preferences": [{ "type": "STANDARD", "standard_name": "VEGAN" }, { "type": "STANDARD", "standard_name": "GLUTEN_FREE" }],
+        "ingredients": [{ "type": "STANDARD", "standard_name": "SESAME" }] } } },
+    { "type": "ITEM", "id": "B", "item_data": { "name": "Lentil Soup",
+      "variations": [{ "item_variation_data": { "name": "Cup", "price_money": { "amount": 600, "currency": "USD" } } },
+                     { "item_variation_data": { "name": "Bowl", "price_money": { "amount": 900, "currency": "USD" } } }] } },
+    { "type": "ITEM", "id": "C", "is_deleted": true, "item_data": { "name": "Old Special" } },
+    { "type": "CATEGORY", "id": "D", "category_data": { "name": "Mains" } }
+  ]
+}

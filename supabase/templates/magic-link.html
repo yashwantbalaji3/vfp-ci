@@ -1,0 +1,10 @@
+<!--
+  Sign-in email for the hosted invite-only beta (docs/79 section 3). Paste into Supabase > Authentication > Emails >
+  "Magic link" (and the same text into "Confirm signup") once a custom email sender is set up: on the free plan,
+  templates can be edited only with your own sender (Supabase changelog, 3 Jun 2026). One link, no images, no
+  tracking, no marketing. Subject: Your sign-in link
+-->
+<h2>Sign in</h2>
+<p>Here is your link to sign in to the invite-only Boston vegetarian guide test. It works once and expires soon.</p>
+<p><a href="{{ .ConfirmationURL }}">Sign in</a></p>
+<p>If you didn't ask for this, you can ignore this email. Nobody can sign in without the link.</p>

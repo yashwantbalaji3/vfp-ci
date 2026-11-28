@@ -1,0 +1,760 @@
+{
+ "FoundationFoods": [
+  {
+   "foodClass": "FinalFood",
+   "description": "Lentils, dry",
+   "foodNutrients": [
+    {
+     "type": "FoodNutrient",
+     "id": 33293916,
+     "nutrient": {
+      "id": 1093,
+      "number": "307",
+      "name": "Sodium, Na",
+      "rank": 5800,
+      "unitName": "mg"
+     },
+     "dataPoints": 8,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 0,
+     "min": 0,
+     "median": 0,
+     "amount": 0
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 33293920,
+     "nutrient": {
+      "id": 1004,
+      "number": "204",
+      "name": "Total lipid (fat)",
+      "rank": 800,
+      "unitName": "g"
+     },
+     "dataPoints": 8,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 2.02,
+     "min": 1.77,
+     "median": 1.95,
+     "amount": 1.92
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 33293924,
+     "nutrient": {
+      "id": 1051,
+      "number": "255",
+      "name": "Water",
+      "rank": 100,
+      "unitName": "g"
+     },
+     "dataPoints": 8,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 10.1,
+     "min": 8.69,
+     "median": 9.46,
+     "amount": 9.45
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 33293993,
+     "nutrient": {
+      "id": 1003,
+      "number": "203",
+      "name": "Protein",
+      "rank": 600,
+      "unitName": "g"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "max": 24.4,
+     "min": 22.1,
+     "median": 23.7,
+     "amount": 23.6
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 33293994,
+     "nutrient": {
+      "id": 1005,
+      "number": "205",
+      "name": "Carbohydrate, by difference",
+      "rank": 1110,
+      "unitName": "g"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": 62.2
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 33293995,
+     "nutrient": {
+      "id": 2047,
+      "number": "957",
+      "name": "Energy (Atwater General Factors)",
+      "rank": 280,
+      "unitName": "kcal"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": 360
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 33293996,
+     "nutrient": {
+      "id": 2048,
+      "number": "958",
+      "name": "Energy (Atwater Specific Factors)",
+      "rank": 290,
+      "unitName": "kcal"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": 351
+    }
+   ],
+   "foodAttributes": [],
+   "nutrientConversionFactors": [],
+   "isHistoricalReference": false,
+   "ndbNumber": 100312,
+   "dataType": "Foundation",
+   "foodCategory": {
+    "description": "Legumes and Legume Products"
+   },
+   "fdcId": 2644283,
+   "foodPortions": [
+    {
+     "id": 312694,
+     "value": 1,
+     "measureUnit": {
+      "id": 1121,
+      "name": "RACC",
+      "abbreviation": "RACC"
+     },
+     "gramWeight": 35,
+     "sequenceNumber": 1,
+     "amount": 1
+    }
+   ],
+   "publicationDate": "10/26/2023",
+   "inputFoods": []
+  },
+  {
+   "foodClass": "FinalFood",
+   "description": "Chicken, drumstick, meat and skin, raw",
+   "foodNutrients": [
+    {
+     "type": "FoodNutrient",
+     "id": 34678179,
+     "nutrient": {
+      "id": 1093,
+      "number": "307",
+      "name": "Sodium, Na",
+      "rank": 5800,
+      "unitName": "mg"
+     },
+     "dataPoints": 8,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 96.6,
+     "min": 85.3,
+     "median": 91,
+     "amount": 91
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 34678183,
+     "nutrient": {
+      "id": 1004,
+      "number": "204",
+      "name": "Total lipid (fat)",
+      "rank": 800,
+      "unitName": "g"
+     },
+     "dataPoints": 8,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 6.84,
+     "min": 5.01,
+     "median": 5.82,
+     "amount": 5.94
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 34678186,
+     "nutrient": {
+      "id": 1051,
+      "number": "255",
+      "name": "Water",
+      "rank": 100,
+      "unitName": "g"
+     },
+     "dataPoints": 8,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 76.2,
+     "min": 74.7,
+     "median": 75.2,
+     "amount": 75.3
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 34678564,
+     "nutrient": {
+      "id": 1003,
+      "number": "203",
+      "name": "Protein",
+      "rank": 600,
+      "unitName": "g"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "max": 19.3,
+     "min": 17.2,
+     "median": 18.2,
+     "amount": 18.4
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 34678565,
+     "nutrient": {
+      "id": 1005,
+      "number": "205",
+      "name": "Carbohydrate, by difference",
+      "rank": 1110,
+      "unitName": "g"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": -0.475
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 34678566,
+     "nutrient": {
+      "id": 2047,
+      "number": "957",
+      "name": "Energy (Atwater General Factors)",
+      "rank": 280,
+      "unitName": "kcal"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": 125
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 34678567,
+     "nutrient": {
+      "id": 2048,
+      "number": "958",
+      "name": "Energy (Atwater Specific Factors)",
+      "rank": 290,
+      "unitName": "kcal"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": 130
+    }
+   ],
+   "foodAttributes": [],
+   "nutrientConversionFactors": [],
+   "isHistoricalReference": false,
+   "ndbNumber": 100372,
+   "dataType": "Foundation",
+   "foodCategory": {
+    "description": "Poultry Products"
+   },
+   "fdcId": 2727566,
+   "foodPortions": [
+    {
+     "id": 312729,
+     "value": 1,
+     "measureUnit": {
+      "id": 1121,
+      "name": "RACC",
+      "abbreviation": "RACC"
+     },
+     "gramWeight": 114,
+     "sequenceNumber": 1,
+     "amount": 1
+    }
+   ],
+   "publicationDate": "4/24/2025",
+   "inputFoods": []
+  },
+  {
+   "foodClass": "FinalFood",
+   "description": "Beans, snap, green, canned, regular pack, drained solids",
+   "foodNutrients": [
+    {
+     "type": "FoodNutrient",
+     "id": 2220528,
+     "nutrient": {
+      "id": 1051,
+      "number": "255",
+      "name": "Water",
+      "rank": 100,
+      "unitName": "g"
+     },
+     "dataPoints": 12,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 94.2,
+     "min": 93,
+     "median": 93.5,
+     "amount": 93.6
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 2220531,
+     "nutrient": {
+      "id": 1004,
+      "number": "204",
+      "name": "Total lipid (fat)",
+      "rank": 800,
+      "unitName": "g"
+     },
+     "dataPoints": 12,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 0.47,
+     "min": 0.3,
+     "median": 0.38,
+     "amount": 0.39
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 2220532,
+     "nutrient": {
+      "id": 1005,
+      "number": "205",
+      "name": "Carbohydrate, by difference",
+      "rank": 1110,
+      "unitName": "g"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": 4.11
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 2220533,
+     "nutrient": {
+      "id": 1008,
+      "number": "208",
+      "name": "Energy",
+      "rank": 300,
+      "unitName": "kcal"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": 21
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 2220538,
+     "nutrient": {
+      "id": 1093,
+      "number": "307",
+      "name": "Sodium, Na",
+      "rank": 5800,
+      "unitName": "mg"
+     },
+     "dataPoints": 12,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 328,
+     "min": 183,
+     "median": 305,
+     "amount": 282
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 2220543,
+     "nutrient": {
+      "id": 1003,
+      "number": "203",
+      "name": "Protein",
+      "rank": 600,
+      "unitName": "g"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "max": 1.25,
+     "min": 0.81,
+     "median": 1.06,
+     "amount": 1.04
+    }
+   ],
+   "foodAttributes": [],
+   "nutrientConversionFactors": [],
+   "isHistoricalReference": false,
+   "ndbNumber": 11056,
+   "dataType": "Foundation",
+   "foodCategory": {
+    "description": "Vegetables and Vegetable Products"
+   },
+   "fdcId": 321611,
+   "foodPortions": [
+    {
+     "id": 118859,
+     "value": 1,
+     "measureUnit": {
+      "id": 1000,
+      "name": "cup",
+      "abbreviation": "cup"
+     },
+     "modifier": "drained",
+     "gramWeight": 129,
+     "sequenceNumber": 1,
+     "minYearAcquired": 2015,
+     "amount": 1
+    },
+    {
+     "id": 312820,
+     "value": 1,
+     "measureUnit": {
+      "id": 1121,
+      "name": "RACC",
+      "abbreviation": "RACC"
+     },
+     "gramWeight": 130,
+     "sequenceNumber": 1,
+     "amount": 1
+    }
+   ],
+   "publicationDate": "4/1/2019",
+   "inputFoods": []
+  },
+  {
+   "foodClass": "FinalFood",
+   "description": "Soy milk, sweetened, plain, refrigerated",
+   "foodNutrients": [
+    {
+     "type": "FoodNutrient",
+     "id": 27790153,
+     "nutrient": {
+      "id": 1051,
+      "number": "255",
+      "name": "Water",
+      "rank": 100,
+      "unitName": "g"
+     },
+     "dataPoints": 7,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 91.8,
+     "min": 90.4,
+     "median": 91.7,
+     "amount": 91.5
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 27790155,
+     "nutrient": {
+      "id": 1079,
+      "number": "291",
+      "name": "Fiber, total dietary",
+      "rank": 1200,
+      "unitName": "g"
+     },
+     "dataPoints": 7,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 0,
+     "min": 0,
+     "median": 0,
+     "amount": 0
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 27790174,
+     "nutrient": {
+      "id": 1093,
+      "number": "307",
+      "name": "Sodium, Na",
+      "rank": 5800,
+      "unitName": "mg"
+     },
+     "dataPoints": 14,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 44.6,
+     "min": 35.4,
+     "median": 39.3,
+     "amount": 39.4
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 27790191,
+     "nutrient": {
+      "id": 1004,
+      "number": "204",
+      "name": "Total lipid (fat)",
+      "rank": 800,
+      "unitName": "g"
+     },
+     "dataPoints": 7,
+     "foodNutrientDerivation": {
+      "code": "A",
+      "description": "Analytical",
+      "foodNutrientSource": {
+       "id": 1,
+       "code": "1",
+       "description": "Analytical or derived from analytical"
+      }
+     },
+     "max": 2.88,
+     "min": 1.4,
+     "median": 1.94,
+     "amount": 1.96
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 27790247,
+     "nutrient": {
+      "id": 1003,
+      "number": "203",
+      "name": "Protein",
+      "rank": 600,
+      "unitName": "g"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "max": 3.38,
+     "min": 2.56,
+     "median": 2.69,
+     "amount": 2.78
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 27790248,
+     "nutrient": {
+      "id": 1005,
+      "number": "205",
+      "name": "Carbohydrate, by difference",
+      "rank": 1110,
+      "unitName": "g"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": 3
+    },
+    {
+     "type": "FoodNutrient",
+     "id": 27790251,
+     "nutrient": {
+      "id": 2047,
+      "number": "957",
+      "name": "Energy (Atwater General Factors)",
+      "rank": 280,
+      "unitName": "kcal"
+     },
+     "foodNutrientDerivation": {
+      "code": "NC",
+      "description": "Calculated",
+      "foodNutrientSource": {
+       "id": 2,
+       "code": "4",
+       "description": "Calculated or imputed"
+      }
+     },
+     "amount": 40.7
+    }
+   ],
+   "foodAttributes": [],
+   "nutrientConversionFactors": [],
+   "isHistoricalReference": false,
+   "ndbNumber": 100275,
+   "dataType": "Foundation",
+   "foodCategory": {
+    "description": "Legumes and Legume Products"
+   },
+   "fdcId": 2257044,
+   "foodPortions": [],
+   "publicationDate": "4/28/2022",
+   "inputFoods": []
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+  "_note": "Market areas for the place-identity import (docs/84). Same centres and radius as src/config/markets.ts and public.markets (migration 20261124000100); a unit test keeps them in step.",
+  "boston": { "lon": -71.0589, "lat": 42.3601, "radiusM": 40234 },
+  "new-york": { "lon": -74.006, "lat": 40.7128, "radiusM": 40234 },
+  "chicago": { "lon": -87.6298, "lat": 41.8781, "radiusM": 40234 },
+  "los-angeles": { "lon": -118.2437, "lat": 34.0522, "radiusM": 40234 },
+  "san-francisco": { "lon": -122.4194, "lat": 37.7749, "radiusM": 40234 },
+  "dallas": { "lon": -96.797, "lat": 32.7767, "radiusM": 40234 }
+}

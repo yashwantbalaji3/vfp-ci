@@ -1,0 +1,18 @@
+{
+  "menus": [{
+    "labels": [{ "displayName": "Lunch" }],
+    "sections": [{
+      "labels": [{ "displayName": "Bowls" }],
+      "items": [
+        { "labels": [{ "displayName": "Tofu Power Bowl", "description": "A long description that must never be copied" }],
+          "attributes": { "price": { "currencyCode": "USD", "units": "14", "nanos": 500000000 }, "dietaryRestriction": ["VEGAN", "VEGETARIAN"],
+            "ingredients": [{ "labels": [{ "displayName": "tofu" }] }, { "labels": [{ "displayName": "brown rice" }] }],
+            "nutritionFacts": { "protein": { "lowerAmount": 28, "upperAmount": 32, "unit": "GRAM" } } } },
+        { "labels": [{ "displayName": "Chicken Bowl" }],
+          "attributes": { "price": { "currencyCode": "USD", "units": "15" }, "allergen": ["DAIRY"] } },
+        { "labels": [{ "displayName": "Veggie Burger" }],
+          "attributes": { "price": { "currencyCode": "USD", "units": "13" }, "nutritionFacts": { "protein": { "lowerAmount": 21, "unit": "GRAM" } } } }
+      ]
+    }]
+  }]
+}

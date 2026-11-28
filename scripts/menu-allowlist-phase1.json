@@ -1,0 +1,29 @@
+{
+  "phase": "chains-1",
+  "purpose": "Phase 1 of real-menu ingestion: 20 chains with Boston locations that publish menus and nutrition, allergen, ingredient or dietary information.",
+  "ownerChoice": "Option B, 17 Nov 2026 18:00 UTC.",
+  "approval": "Owner approved these 46 exact host names on 17 Nov 2026 19:20 UTC and approved the three network-setting cards at 19:21 UTC. No other domain may be added without the owner's permission; network access stays limited (never unrestricted).",
+  "approved": true,
+  "chains": [
+    { "chain": "Dunkin'", "hosts": ["dunkindonuts.com", "www.dunkindonuts.com", "locations.dunkindonuts.com"] },
+    { "chain": "Starbucks", "hosts": ["starbucks.com", "www.starbucks.com"] },
+    { "chain": "McDonald's", "hosts": ["mcdonalds.com", "www.mcdonalds.com"] },
+    { "chain": "Tatte Bakery & Cafe", "hosts": ["tattebakery.com", "www.tattebakery.com"] },
+    { "chain": "Chipotle", "hosts": ["chipotle.com", "www.chipotle.com", "locations.chipotle.com"] },
+    { "chain": "Flour Bakery + Cafe", "hosts": ["flourbakery.com", "www.flourbakery.com"] },
+    { "chain": "Domino's", "hosts": ["dominos.com", "www.dominos.com"] },
+    { "chain": "sweetgreen", "hosts": ["sweetgreen.com", "www.sweetgreen.com"] },
+    { "chain": "Burger King", "hosts": ["bk.com", "www.bk.com", "burgerking.com", "www.burgerking.com"] },
+    { "chain": "Subway", "hosts": ["subway.com", "www.subway.com", "restaurants.subway.com"] },
+    { "chain": "Panera Bread", "hosts": ["panerabread.com", "www.panerabread.com"] },
+    { "chain": "Life Alive", "hosts": ["lifealive.com", "www.lifealive.com"] },
+    { "chain": "Dig", "hosts": ["diginn.com", "www.diginn.com"] },
+    { "chain": "Clover Food Lab", "hosts": ["cloverfoodlab.com", "www.cloverfoodlab.com"] },
+    { "chain": "The Halal Guys", "hosts": ["thehalalguys.com", "www.thehalalguys.com"] },
+    { "chain": "CAVA", "hosts": ["cava.com", "www.cava.com"] },
+    { "chain": "Shake Shack", "hosts": ["shakeshack.com", "www.shakeshack.com"] },
+    { "chain": "Taco Bell", "hosts": ["tacobell.com", "www.tacobell.com", "locations.tacobell.com"] },
+    { "chain": "Just Salad", "hosts": ["justsalad.com", "www.justsalad.com"] },
+    { "chain": "honeygrow", "hosts": ["honeygrow.com", "www.honeygrow.com"] }
+  ]
+}

@@ -1,0 +1,2618 @@
+{
+ "version": "original-v2",
+ "about": "38 original recipes written for this project (not copied or paraphrased from any book, site or database). Loaded by scripts/original-recipes.mjs. Each recipe ingredient names a key in 'ingredients'. Ingredients for data/recipes/original-v2.json. 'reuse' names an existing real ingredient revision (scripts/real-recipes.mjs); its statements stay as they are and must match what is written here. Every other entry is a new real ingredient whose nutrition comes from the named USDA FoodData Central food, per 100 g. Families and allergens list only what is present or not known; every other family is absent by statement for the plain ingredient. Diets are a curator assessment of the plain ingredient: brands differ, check packaged labels.",
+ "ingredients": {
+  "tofu": {
+   "reuse": "a0000000-0000-4000-8000-000000420001",
+   "name": "Extra-firm tofu",
+   "fdcId": 172475,
+   "release": "2018-04",
+   "allergens": {
+    "soy": "present"
+   }
+  },
+  "onion": {
+   "reuse": "a0000000-0000-4000-8000-000000420002",
+   "name": "Onion",
+   "fdcId": 170000,
+   "release": "2018-04"
+  },
+  "tomato": {
+   "reuse": "a0000000-0000-4000-8000-000000420003",
+   "name": "Tomato",
+   "fdcId": 170457,
+   "release": "2018-04"
+  },
+  "spinach": {
+   "reuse": "a0000000-0000-4000-8000-000000420004",
+   "name": "Spinach",
+   "fdcId": 168462,
+   "release": "2018-04"
+  },
+  "sunflower_oil": {
+   "reuse": "a0000000-0000-4000-8000-000000420005",
+   "name": "Sunflower oil",
+   "fdcId": 171025,
+   "release": "2018-04"
+  },
+  "olive_oil": {
+   "reuse": "a0000000-0000-4000-8000-000000420006",
+   "name": "Olive oil",
+   "fdcId": 171413,
+   "release": "2018-04"
+  },
+  "garlic": {
+   "reuse": "a0000000-0000-4000-8000-000000420007",
+   "name": "Garlic",
+   "fdcId": 169230,
+   "release": "2018-04"
+  },
+  "ginger": {
+   "reuse": "a0000000-0000-4000-8000-000000420008",
+   "name": "Fresh ginger",
+   "fdcId": 169231,
+   "release": "2018-04"
+  },
+  "turmeric": {
+   "reuse": "a0000000-0000-4000-8000-000000420009",
+   "name": "Ground turmeric",
+   "fdcId": 172231,
+   "release": "2018-04"
+  },
+  "cumin": {
+   "reuse": "a0000000-0000-4000-8000-000000420010",
+   "name": "Ground cumin",
+   "fdcId": 170923,
+   "release": "2018-04"
+  },
+  "salt": {
+   "reuse": "a0000000-0000-4000-8000-000000420012",
+   "name": "Salt",
+   "fdcId": 173468,
+   "release": "2018-04"
+  },
+  "oats": {
+   "reuse": "a0000000-0000-4000-8000-000000420013",
+   "name": "Rolled oats",
+   "fdcId": 2346396,
+   "release": "2026-10-29",
+   "allergens": {
+    "gluten": "unknown"
+   }
+  },
+  "soy_milk": {
+   "reuse": "a0000000-0000-4000-8000-000000420014",
+   "name": "Unsweetened soy milk",
+   "fdcId": 175215,
+   "release": "2018-04",
+   "allergens": {
+    "soy": "present"
+   }
+  },
+  "peanut_butter": {
+   "reuse": "a0000000-0000-4000-8000-000000420016",
+   "name": "Peanut butter",
+   "fdcId": 172470,
+   "release": "2018-04",
+   "allergens": {
+    "peanut": "present"
+   }
+  },
+  "chia": {
+   "reuse": "a0000000-0000-4000-8000-000000420017",
+   "name": "Chia seeds",
+   "fdcId": 170554,
+   "release": "2018-04"
+  },
+  "maple": {
+   "reuse": "a0000000-0000-4000-8000-000000420018",
+   "name": "Maple syrup",
+   "fdcId": 169661,
+   "release": "2018-04"
+  },
+  "banana": {
+   "reuse": "a0000000-0000-4000-8000-000000420020",
+   "name": "Banana",
+   "fdcId": 173944,
+   "release": "2018-04"
+  },
+  "greek_yogurt": {
+   "reuse": "a0000000-0000-4000-8000-000000420021",
+   "name": "Plain Greek yogurt",
+   "fdcId": 330137,
+   "release": "2026-10-29",
+   "families": {
+    "dairy": "present"
+   },
+   "allergens": {
+    "milk": "present"
+   },
+   "diets": {
+    "vegan": "incompatible"
+   }
+  },
+  "soy_yogurt": {
+   "reuse": "a0000000-0000-4000-8000-000000420022",
+   "name": "Plain soy yogurt",
+   "fdcId": 167722,
+   "release": "2018-04",
+   "allergens": {
+    "soy": "present"
+   }
+  },
+  "walnuts": {
+   "reuse": "a0000000-0000-4000-8000-000000420023",
+   "name": "Walnuts",
+   "fdcId": 170187,
+   "release": "2018-04",
+   "allergens": {
+    "tree_nut": "present"
+   }
+  },
+  "blueberries": {
+   "reuse": "a0000000-0000-4000-8000-000000420024",
+   "name": "Blueberries",
+   "fdcId": 171711,
+   "release": "2018-04"
+  },
+  "eggs": {
+   "reuse": "a0000000-0000-4000-8000-000000420025",
+   "name": "Eggs",
+   "fdcId": 171287,
+   "release": "2018-04",
+   "families": {
+    "egg": "present"
+   },
+   "allergens": {
+    "egg": "present"
+   },
+   "diets": {
+    "vegan": "incompatible"
+   }
+  },
+  "white_beans": {
+   "reuse": "a0000000-0000-4000-8000-000000420026",
+   "name": "Canned white beans",
+   "fdcId": 175204,
+   "release": "2018-04"
+  },
+  "red_pepper": {
+   "reuse": "a0000000-0000-4000-8000-000000420027",
+   "name": "Red bell pepper",
+   "fdcId": 170108,
+   "release": "2018-04"
+  },
+  "canned_tomatoes": {
+   "reuse": "a0000000-0000-4000-8000-000000420028",
+   "name": "Canned chopped tomatoes",
+   "fdcId": 170051,
+   "release": "2018-04"
+  },
+  "smoked_paprika": {
+   "reuse": "a0000000-0000-4000-8000-000000420029",
+   "name": "Smoked paprika",
+   "fdcId": 171329,
+   "release": "2018-04"
+  },
+  "chickpeas": {
+   "reuse": "a0000000-0000-4000-8000-000000420030",
+   "name": "Canned chickpeas, drained",
+   "fdcId": 173800,
+   "release": "2018-04"
+  },
+  "paneer": {
+   "reuse": "a0000000-0000-4000-8000-000000420031",
+   "name": "Paneer",
+   "fdcId": null,
+   "release": null,
+   "families": {
+    "dairy": "present"
+   },
+   "allergens": {
+    "milk": "present"
+   },
+   "diets": {
+    "vegan": "incompatible"
+   }
+  },
+  "coconut_milk": {
+   "reuse": "a0000000-0000-4000-8000-000000420033",
+   "name": "Canned coconut milk",
+   "fdcId": 170173,
+   "release": "2018-04"
+  },
+  "red_lentils": {
+   "reuse": "a0000000-0000-4000-8000-000000420034",
+   "name": "Split red lentils",
+   "fdcId": 174284,
+   "release": "2018-04"
+  },
+  "basmati": {
+   "reuse": "a0000000-0000-4000-8000-000000420036",
+   "name": "Basmati rice (white, long-grain)",
+   "fdcId": 168877,
+   "release": "2018-04"
+  },
+  "broccoli": {
+   "reuse": "a0000000-0000-4000-8000-000000420037",
+   "name": "Broccoli",
+   "fdcId": 170379,
+   "release": "2018-04"
+  },
+  "soy_sauce": {
+   "reuse": "a0000000-0000-4000-8000-000000420038",
+   "name": "Soy sauce",
+   "fdcId": 174277,
+   "release": "2018-04",
+   "allergens": {
+    "soy": "present",
+    "wheat": "present"
+   }
+  },
+  "sesame_oil": {
+   "reuse": "a0000000-0000-4000-8000-000000420039",
+   "name": "Toasted sesame oil",
+   "fdcId": 171016,
+   "release": "2018-04",
+   "allergens": {
+    "sesame": "present"
+   }
+  },
+  "sesame_seeds": {
+   "reuse": "a0000000-0000-4000-8000-000000420040",
+   "name": "Sesame seeds",
+   "fdcId": 170150,
+   "release": "2018-04",
+   "allergens": {
+    "sesame": "present"
+   }
+  },
+  "cornstarch": {
+   "reuse": "a0000000-0000-4000-8000-000000420041",
+   "name": "Cornstarch",
+   "fdcId": 169698,
+   "release": "2018-04"
+  },
+  "edamame": {
+   "reuse": "a0000000-0000-4000-8000-000000420045",
+   "name": "Shelled edamame",
+   "fdcId": 168411,
+   "release": "2018-04",
+   "allergens": {
+    "soy": "present"
+   }
+  },
+  "carrot": {
+   "reuse": "a0000000-0000-4000-8000-000000420046",
+   "name": "Carrot",
+   "fdcId": 170393,
+   "release": "2018-04"
+  },
+  "cucumber": {
+   "reuse": "a0000000-0000-4000-8000-000000420047",
+   "name": "Cucumber",
+   "fdcId": 168409,
+   "release": "2018-04"
+  },
+  "lime_juice": {
+   "reuse": "a0000000-0000-4000-8000-000000420048",
+   "name": "Lime juice",
+   "fdcId": 168156,
+   "release": "2018-04"
+  },
+  "lemon_juice": {
+   "reuse": "a0000000-0000-4000-8000-000000420049",
+   "name": "Lemon juice",
+   "fdcId": 167747,
+   "release": "2018-04"
+  },
+  "quinoa": {
+   "reuse": "a0000000-0000-4000-8000-000000420050",
+   "name": "Quinoa",
+   "fdcId": 168874,
+   "release": "2018-04"
+  },
+  "tahini": {
+   "reuse": "a0000000-0000-4000-8000-000000420051",
+   "name": "Tahini",
+   "fdcId": 170189,
+   "release": "2018-04",
+   "allergens": {
+    "sesame": "present"
+   }
+  },
+  "parsley": {
+   "reuse": "a0000000-0000-4000-8000-000000420052",
+   "name": "Flat-leaf parsley",
+   "fdcId": 170416,
+   "release": "2018-04"
+  },
+  "water": {
+   "reuse": "a0000000-0000-4000-8000-000000420053",
+   "name": "Water",
+   "fdcId": 173647,
+   "release": "2018-04"
+  },
+  "coriander_leaf": {
+   "reuse": "a0000000-0000-4000-8000-000000420054",
+   "name": "Fresh coriander",
+   "fdcId": 169997,
+   "release": "2018-04"
+  },
+  "green_chili": {
+   "reuse": "a0000000-0000-4000-8000-000000420055",
+   "name": "Green chili",
+   "fdcId": 170497,
+   "release": "2018-04"
+  },
+  "tempeh": {
+   "name": "Tempeh",
+   "fdcId": 174272,
+   "release": "2018-04",
+   "usda": "Tempeh",
+   "allergens": {
+    "soy": "present"
+   }
+  },
+  "vital_wheat_gluten": {
+   "name": "Vital wheat gluten",
+   "fdcId": 168147,
+   "release": "2018-04",
+   "usda": "Vital wheat gluten",
+   "allergens": {
+    "wheat": "present",
+    "gluten": "present"
+   }
+  },
+  "black_beans": {
+   "name": "Black beans, cooked or canned and drained",
+   "fdcId": 173735,
+   "release": "2018-04",
+   "usda": "Beans, black, mature seeds, cooked, boiled, without salt"
+  },
+  "kidney_beans": {
+   "name": "Canned red kidney beans, drained",
+   "fdcId": 174285,
+   "release": "2018-04",
+   "usda": "Beans, kidney, red, mature seeds, canned, drained solids"
+  },
+  "pinto_beans": {
+   "name": "Canned pinto beans, drained",
+   "fdcId": 174286,
+   "release": "2018-04",
+   "usda": "Beans, pinto, canned, drained solids"
+  },
+  "green_lentils": {
+   "name": "Brown or green lentils, dry",
+   "fdcId": 172420,
+   "release": "2018-04",
+   "usda": "Lentils, raw"
+  },
+  "silken_tofu": {
+   "name": "Silken (soft) tofu",
+   "fdcId": 172449,
+   "release": "2018-04",
+   "usda": "Tofu, soft, prepared with calcium sulfate and magnesium chloride (nigari)",
+   "allergens": {
+    "soy": "present"
+   }
+  },
+  "cottage_cheese": {
+   "name": "Cottage cheese (2% milkfat)",
+   "fdcId": 172182,
+   "release": "2018-04",
+   "usda": "Cheese, cottage, lowfat, 2% milkfat",
+   "families": {
+    "dairy": "present",
+    "animal_rennet": "unknown"
+   },
+   "allergens": {
+    "milk": "present"
+   },
+   "diets": {
+    "vegan": "incompatible",
+    "vegetarian": "conditional"
+   },
+   "modifications": "Some cottage cheese is set with animal rennet: choose one the label says uses microbial or no rennet."
+  },
+  "feta": {
+   "name": "Feta cheese",
+   "fdcId": 173420,
+   "release": "2018-04",
+   "usda": "Cheese, feta",
+   "families": {
+    "dairy": "present",
+    "animal_rennet": "unknown"
+   },
+   "allergens": {
+    "milk": "present"
+   },
+   "diets": {
+    "vegan": "incompatible",
+    "vegetarian": "conditional"
+   },
+   "modifications": "Feta is often made with animal rennet: choose one the label says uses microbial or vegetable rennet."
+  },
+  "cheddar": {
+   "name": "Cheddar cheese",
+   "fdcId": 173414,
+   "release": "2018-04",
+   "usda": "Cheese, cheddar",
+   "families": {
+    "dairy": "present",
+    "animal_rennet": "unknown"
+   },
+   "allergens": {
+    "milk": "present"
+   },
+   "diets": {
+    "vegan": "incompatible",
+    "vegetarian": "conditional"
+   },
+   "modifications": "Cheddar may be made with animal rennet: choose one the label says uses microbial or vegetable rennet."
+  },
+  "ricotta": {
+   "name": "Ricotta (part-skim)",
+   "fdcId": 171248,
+   "release": "2018-04",
+   "usda": "Cheese, ricotta, part skim milk",
+   "families": {
+    "dairy": "present",
+    "animal_rennet": "unknown"
+   },
+   "allergens": {
+    "milk": "present"
+   },
+   "diets": {
+    "vegan": "incompatible",
+    "vegetarian": "conditional"
+   },
+   "modifications": "Some ricotta is made with rennet: choose one the label says uses no animal rennet."
+  },
+  "brown_rice": {
+   "name": "Brown rice (long-grain), dry",
+   "fdcId": 169703,
+   "release": "2018-04",
+   "usda": "Rice, brown, long-grain, raw"
+  },
+  "couscous": {
+   "name": "Couscous, dry",
+   "fdcId": 169699,
+   "release": "2018-04",
+   "usda": "Couscous, dry",
+   "allergens": {
+    "wheat": "present",
+    "gluten": "present"
+   }
+  },
+  "bulgur": {
+   "name": "Bulgur wheat, dry",
+   "fdcId": 170688,
+   "release": "2018-04",
+   "usda": "Bulgur, dry",
+   "allergens": {
+    "wheat": "present",
+    "gluten": "present"
+   }
+  },
+  "spaghetti": {
+   "name": "Dried spaghetti",
+   "fdcId": 169736,
+   "release": "2018-04",
+   "usda": "Pasta, dry, enriched",
+   "allergens": {
+    "wheat": "present",
+    "gluten": "present"
+   }
+  },
+  "ww_pasta": {
+   "name": "Whole-wheat pasta, dry",
+   "fdcId": 169738,
+   "release": "2018-04",
+   "usda": "Pasta, whole-wheat, dry",
+   "allergens": {
+    "wheat": "present",
+    "gluten": "present"
+   }
+  },
+  "corn_tortillas": {
+   "name": "Corn tortillas",
+   "fdcId": 175036,
+   "release": "2018-04",
+   "usda": "Tortillas, ready-to-bake or -fry, corn"
+  },
+  "ww_tortillas": {
+   "name": "Whole-wheat tortillas",
+   "fdcId": 174081,
+   "release": "2018-04",
+   "usda": "Tortillas, ready-to-bake or -fry, whole wheat",
+   "families": {
+    "dairy": "unknown",
+    "honey": "unknown"
+   },
+   "allergens": {
+    "wheat": "present",
+    "gluten": "present",
+    "milk": "unknown"
+   },
+   "diets": {
+    "vegan": "conditional",
+    "vegetarian": "conditional"
+   },
+   "modifications": "Some flour tortillas contain lard, milk or honey: choose ones made with vegetable oil and check the label."
+  },
+  "ww_bread": {
+   "name": "Whole-wheat bread",
+   "fdcId": 172688,
+   "release": "2018-04",
+   "usda": "Bread, whole-wheat, commercially prepared",
+   "families": {
+    "dairy": "unknown",
+    "honey": "unknown",
+    "egg": "unknown"
+   },
+   "allergens": {
+    "wheat": "present",
+    "gluten": "present",
+    "milk": "unknown",
+    "egg": "unknown"
+   },
+   "diets": {
+    "vegan": "conditional"
+   },
+   "modifications": "Some sliced breads contain milk, egg or honey: for a vegan sandwich choose a loaf whose label lists none."
+  },
+  "ww_pita": {
+   "name": "Whole-wheat pita",
+   "fdcId": 174916,
+   "release": "2018-04",
+   "usda": "Bread, pita, whole-wheat",
+   "families": {
+    "dairy": "unknown",
+    "honey": "unknown"
+   },
+   "allergens": {
+    "wheat": "present",
+    "gluten": "present",
+    "milk": "unknown"
+   },
+   "diets": {
+    "vegan": "conditional"
+   },
+   "modifications": "Some pita contains milk or honey: for a vegan meal choose one whose label lists neither."
+  },
+  "potato": {
+   "name": "Potato",
+   "fdcId": 170027,
+   "release": "2018-04",
+   "usda": "Potatoes, russet, flesh and skin, raw"
+  },
+  "sweet_potato": {
+   "name": "Sweet potato",
+   "fdcId": 168482,
+   "release": "2018-04",
+   "usda": "Sweet potato, raw, unprepared"
+  },
+  "soba": {
+   "name": "Soba noodles, dry",
+   "fdcId": 168906,
+   "release": "2018-04",
+   "usda": "Noodles, japanese, soba, dry",
+   "allergens": {
+    "wheat": "present",
+    "gluten": "present"
+   }
+  },
+  "chickpea_flour": {
+   "name": "Chickpea flour (besan)",
+   "fdcId": 174288,
+   "release": "2018-04",
+   "usda": "Chickpea flour (besan)"
+  },
+  "zucchini": {
+   "name": "Zucchini",
+   "fdcId": 169291,
+   "release": "2018-04",
+   "usda": "Squash, summer, zucchini, includes skin, raw"
+  },
+  "eggplant": {
+   "name": "Eggplant",
+   "fdcId": 169228,
+   "release": "2018-04",
+   "usda": "Eggplant, raw"
+  },
+  "kale": {
+   "name": "Kale",
+   "fdcId": 168421,
+   "release": "2018-04",
+   "usda": "Kale, raw"
+  },
+  "mushrooms": {
+   "name": "White mushrooms",
+   "fdcId": 169251,
+   "release": "2018-04",
+   "usda": "Mushrooms, white, raw"
+  },
+  "shiitake": {
+   "name": "Shiitake mushrooms",
+   "fdcId": 169242,
+   "release": "2018-04",
+   "usda": "Mushrooms, shiitake, raw"
+  },
+  "green_beans": {
+   "name": "Green beans",
+   "fdcId": 169961,
+   "release": "2018-04",
+   "usda": "Beans, snap, green, raw"
+  },
+  "peas": {
+   "name": "Frozen peas",
+   "fdcId": 170016,
+   "release": "2018-04",
+   "usda": "Peas, green, frozen, unprepared"
+  },
+  "corn": {
+   "name": "Sweet corn kernels",
+   "fdcId": 169998,
+   "release": "2018-04",
+   "usda": "Corn, sweet, yellow, raw"
+  },
+  "avocado": {
+   "name": "Avocado",
+   "fdcId": 171705,
+   "release": "2018-04",
+   "usda": "Avocados, raw, all commercial varieties"
+  },
+  "romaine": {
+   "name": "Romaine lettuce",
+   "fdcId": 169247,
+   "release": "2018-04",
+   "usda": "Lettuce, cos or romaine, raw"
+  },
+  "scallions": {
+   "name": "Scallions",
+   "fdcId": 170005,
+   "release": "2018-04",
+   "usda": "Onions, spring or scallions (includes tops and bulb), raw"
+  },
+  "celery": {
+   "name": "Celery",
+   "fdcId": 169988,
+   "release": "2018-04",
+   "usda": "Celery, raw",
+   "allergens": {
+    "celery": "present"
+   }
+  },
+  "green_pepper": {
+   "name": "Green bell pepper",
+   "fdcId": 170427,
+   "release": "2018-04",
+   "usda": "Peppers, sweet, green, raw"
+  },
+  "jalapeno": {
+   "name": "Jalapeño",
+   "fdcId": 168576,
+   "release": "2018-04",
+   "usda": "Peppers, jalapeno, raw"
+  },
+  "bok_choy": {
+   "name": "Bok choy",
+   "fdcId": 170390,
+   "release": "2018-04",
+   "usda": "Cabbage, chinese (pak-choi), raw"
+  },
+  "mint": {
+   "name": "Fresh mint",
+   "fdcId": 173475,
+   "release": "2018-04",
+   "usda": "Spearmint, fresh"
+  },
+  "basil": {
+   "name": "Fresh basil",
+   "fdcId": 172232,
+   "release": "2018-04",
+   "usda": "Basil, fresh"
+  },
+  "dill": {
+   "name": "Fresh dill",
+   "fdcId": 172233,
+   "release": "2018-04",
+   "usda": "Dill weed, fresh"
+  },
+  "butternut": {
+   "name": "Butternut squash",
+   "fdcId": 169295,
+   "release": "2018-04",
+   "usda": "Squash, winter, butternut, raw"
+  },
+  "apple": {
+   "name": "Apple",
+   "fdcId": 171688,
+   "release": "2018-04",
+   "usda": "Apples, raw, with skin"
+  },
+  "raisins": {
+   "name": "Raisins",
+   "fdcId": 168164,
+   "release": "2018-04",
+   "usda": "Raisins, golden, seedless"
+  },
+  "dates": {
+   "name": "Medjool dates",
+   "fdcId": 168191,
+   "release": "2018-04",
+   "usda": "Dates, medjool"
+  },
+  "strawberries": {
+   "name": "Strawberries",
+   "fdcId": 167762,
+   "release": "2018-04",
+   "usda": "Strawberries, raw"
+  },
+  "peanuts": {
+   "name": "Roasted peanuts, unsalted",
+   "fdcId": 173806,
+   "release": "2018-04",
+   "usda": "Peanuts, all types, dry-roasted, without salt",
+   "allergens": {
+    "peanut": "present"
+   }
+  },
+  "almonds": {
+   "name": "Almonds",
+   "fdcId": 170567,
+   "release": "2018-04",
+   "usda": "Nuts, almonds",
+   "allergens": {
+    "tree_nut": "present"
+   }
+  },
+  "pumpkin_seeds": {
+   "name": "Pumpkin seeds (pepitas)",
+   "fdcId": 170556,
+   "release": "2018-04",
+   "usda": "Seeds, pumpkin and squash seed kernels, dried"
+  },
+  "hemp_seeds": {
+   "name": "Hulled hemp seeds",
+   "fdcId": 170148,
+   "release": "2018-04",
+   "usda": "Seeds, hemp seed, hulled"
+  },
+  "flaxseed": {
+   "name": "Ground flaxseed",
+   "fdcId": 169414,
+   "release": "2018-04",
+   "usda": "Seeds, flaxseed"
+  },
+  "ground_coriander": {
+   "name": "Ground coriander",
+   "fdcId": 170922,
+   "release": "2018-04",
+   "usda": "Spices, coriander seed"
+  },
+  "chili_powder": {
+   "name": "Chili powder",
+   "fdcId": 171319,
+   "release": "2018-04",
+   "usda": "Spices, chili powder"
+  },
+  "cayenne": {
+   "name": "Cayenne pepper",
+   "fdcId": 170932,
+   "release": "2018-04",
+   "usda": "Spices, pepper, red or cayenne"
+  },
+  "cinnamon": {
+   "name": "Ground cinnamon",
+   "fdcId": 171320,
+   "release": "2018-04",
+   "usda": "Spices, cinnamon, ground"
+  },
+  "oregano": {
+   "name": "Dried oregano",
+   "fdcId": 171328,
+   "release": "2018-04",
+   "usda": "Spices, oregano, dried"
+  },
+  "black_pepper": {
+   "name": "Black pepper",
+   "fdcId": 170931,
+   "release": "2018-04",
+   "usda": "Spices, pepper, black"
+  },
+  "fenugreek": {
+   "name": "Fenugreek seeds",
+   "fdcId": 171324,
+   "release": "2018-04",
+   "usda": "Spices, fenugreek seed"
+  },
+  "cardamom": {
+   "name": "Ground cardamom",
+   "fdcId": 170919,
+   "release": "2018-04",
+   "usda": "Spices, cardamom"
+  },
+  "ground_ginger": {
+   "name": "Ground ginger",
+   "fdcId": 170926,
+   "release": "2018-04",
+   "usda": "Spices, ginger, ground"
+  },
+  "garlic_powder": {
+   "name": "Garlic powder",
+   "fdcId": 171325,
+   "release": "2018-04",
+   "usda": "Spices, garlic powder"
+  },
+  "red_wine_vinegar": {
+   "name": "Red wine vinegar",
+   "fdcId": 172240,
+   "release": "2018-04",
+   "usda": "Vinegar, red wine",
+   "allergens": {
+    "sulfite": "unknown"
+   }
+  },
+  "cider_vinegar": {
+   "name": "Cider vinegar",
+   "fdcId": 173469,
+   "release": "2018-04",
+   "usda": "Vinegar, cider"
+  },
+  "salsa": {
+   "name": "Tomato salsa (jarred)",
+   "fdcId": 174524,
+   "release": "2018-04",
+   "usda": "Sauce, salsa, ready-to-serve"
+  },
+  "sriracha": {
+   "name": "Sriracha",
+   "fdcId": 171186,
+   "release": "2018-04",
+   "usda": "Sauce, hot chile, sriracha"
+  },
+  "miso": {
+   "name": "Miso",
+   "fdcId": 172442,
+   "release": "2018-04",
+   "usda": "Miso",
+   "allergens": {
+    "soy": "present"
+   }
+  },
+  "mustard": {
+   "name": "Yellow mustard",
+   "fdcId": 172234,
+   "release": "2018-04",
+   "usda": "Mustard, prepared, yellow",
+   "allergens": {
+    "mustard": "present"
+   }
+  },
+  "cocoa": {
+   "name": "Unsweetened cocoa powder",
+   "fdcId": 169593,
+   "release": "2018-04",
+   "usda": "Cocoa, dry powder, unsweetened"
+  },
+  "vanilla": {
+   "name": "Vanilla extract",
+   "fdcId": 173471,
+   "release": "2018-04",
+   "usda": "Vanilla extract"
+  },
+  "baking_powder": {
+   "name": "Baking powder",
+   "fdcId": 172803,
+   "release": "2018-04",
+   "usda": "Leavening agents, baking powder, double-acting, sodium aluminum sulfate"
+  },
+  "olives": {
+   "name": "Black olives",
+   "fdcId": 169094,
+   "release": "2018-04",
+   "usda": "Olives, ripe, canned (small-extra large)"
+  },
+  "tomato_paste": {
+   "name": "Tomato paste",
+   "fdcId": 170459,
+   "release": "2018-04",
+   "usda": "Tomato products, canned, paste, without salt added"
+  }
+ },
+ "recipes": [
+  {
+   "slug": "tofu-black-bean-breakfast-tacos",
+   "name": "Tofu and black bean breakfast tacos",
+   "style": "Mexican-style",
+   "description": "Warm corn tortillas filled with cumin-spiced crumbled tofu, black beans and a spoon of salsa. A filling breakfast that comes together in one pan.",
+   "servings": 2,
+   "prepMinutes": 10,
+   "cookMinutes": 12,
+   "cuisine": "mexican",
+   "mealTypes": [
+    "breakfast",
+    "lunch"
+   ],
+   "equipment": [
+    "large frying pan",
+    "wooden spoon",
+    "small pan or griddle"
+   ],
+   "servingNote": "One serving is three tacos.",
+   "ingredients": [
+    { "ingredient": "tofu", "quantity": 300, "unit": "g", "grams": 300, "prep": "patted dry" },
+    { "ingredient": "sunflower_oil", "quantity": 1, "unit": "tbsp", "grams": 14 },
+    { "ingredient": "onion", "quantity": 0.5, "unit": "medium", "grams": 55, "prep": "finely chopped" },
+    { "ingredient": "cumin", "quantity": 1, "unit": "tsp", "grams": 2.5 },
+    { "ingredient": "smoked_paprika", "quantity": 0.5, "unit": "tsp", "grams": 1.2 },
+    { "ingredient": "turmeric", "quantity": 0.25, "unit": "tsp", "grams": 0.8 },
+    { "ingredient": "black_beans", "quantity": 1, "unit": "cup", "grams": 170, "prep": "rinsed and drained" },
+    { "ingredient": "salt", "quantity": 0.5, "unit": "tsp", "grams": 3 },
+    { "ingredient": "corn_tortillas", "quantity": 6, "unit": "small", "grams": 156 },
+    { "ingredient": "salsa", "quantity": 4, "unit": "tbsp", "grams": 64 },
+    { "ingredient": "coriander_leaf", "quantity": 1, "unit": "small handful", "grams": 5, "prep": "chopped" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Soften the onion", "text": "Warm the oil in the frying pan over medium heat. Cook the onion until soft and starting to colour.", "timer": 240 },
+    { "title": "Cook the tofu", "text": "Crumble the tofu into the pan with your fingers. Add the cumin, paprika, turmeric and salt and stir until the tofu is evenly golden and hot.", "timer": 300 },
+    { "title": "Add the beans", "text": "Stir in the black beans and a splash of water. Cook until the beans are heated through, then taste for salt.", "timer": 120 },
+    { "title": "Warm the tortillas", "text": "Heat the tortillas one or two at a time in a dry pan, about 30 seconds a side, and keep them wrapped in a clean towel." },
+    { "title": "Fill and serve", "text": "Spoon the filling into the tortillas and top with salsa and coriander." }
+   ]
+  },
+  {
+   "slug": "spinach-chickpea-flour-pancakes",
+   "name": "Spinach chickpea-flour pancakes",
+   "style": "North Indian-style",
+   "description": "Thin savoury pancakes made from a chickpea-flour batter with spinach, onion and a little chili. Good with yogurt or chutney for breakfast or a light lunch.",
+   "servings": 2,
+   "prepMinutes": 10,
+   "cookMinutes": 15,
+   "cuisine": "indian",
+   "mealTypes": [
+    "breakfast",
+    "lunch"
+   ],
+   "equipment": [
+    "mixing bowl",
+    "whisk",
+    "non-stick frying pan",
+    "spatula"
+   ],
+   "servingNote": "One serving is three pancakes.",
+   "ingredients": [
+    { "ingredient": "chickpea_flour", "quantity": 1, "unit": "cup", "grams": 120 },
+    { "ingredient": "water", "quantity": 0.75, "unit": "cup", "grams": 180 },
+    { "ingredient": "spinach", "quantity": 2, "unit": "cups", "grams": 60, "prep": "finely chopped" },
+    { "ingredient": "onion", "quantity": 0.5, "unit": "medium", "grams": 55, "prep": "finely chopped" },
+    { "ingredient": "green_chili", "quantity": 1, "unit": "small", "grams": 5, "prep": "finely chopped (optional heat)" },
+    { "ingredient": "cumin", "quantity": 0.5, "unit": "tsp", "grams": 1.2 },
+    { "ingredient": "turmeric", "quantity": 0.25, "unit": "tsp", "grams": 0.8 },
+    { "ingredient": "salt", "quantity": 0.5, "unit": "tsp", "grams": 3 },
+    { "ingredient": "sunflower_oil", "quantity": 1.5, "unit": "tbsp", "grams": 21, "prep": "for the pan" },
+    { "ingredient": "soy_yogurt", "quantity": 6, "unit": "tbsp", "grams": 90, "group": "topping", "prep": "to serve" },
+    { "ingredient": "greek_yogurt", "quantity": 6, "unit": "tbsp", "grams": 90, "group": "topping", "default": false, "note": "Greek yogurt in place of soy yogurt, if you eat dairy." }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Make the batter", "text": "Whisk the chickpea flour, cumin, turmeric and salt with the water until smooth, like a thin pancake batter. Leave it to rest for 5 minutes.", "timer": 300 },
+    { "title": "Add the vegetables", "text": "Stir the spinach, onion and chili into the batter." },
+    { "title": "Cook the pancakes", "text": "Heat the pan over medium heat and brush it with a little oil. Pour in a small ladle of batter and spread it thin. Cook until the edges lift and the underside is golden, then flip and cook the other side.", "timer": 150 },
+    { "title": "Repeat", "text": "Make the rest of the pancakes the same way, oiling the pan lightly each time. Keep the cooked ones warm under a plate." },
+    { "title": "Serve", "text": "Serve warm with the yogurt on the side." }
+   ]
+  },
+  {
+   "slug": "cottage-cheese-strawberry-bowl",
+   "name": "Cottage cheese bowl with strawberries and pepitas",
+   "style": "American-style",
+   "description": "Cool cottage cheese with sliced strawberries, crunchy pumpkin seeds and a thread of maple syrup. No cooking, and plenty of protein to start the day.",
+   "servings": 1,
+   "prepMinutes": 5,
+   "cookMinutes": 0,
+   "cuisine": "american",
+   "mealTypes": [
+    "breakfast",
+    "snack"
+   ],
+   "equipment": [
+    "bowl",
+    "knife"
+   ],
+   "servingNote": "Makes one bowl.",
+   "ingredients": [
+    { "ingredient": "cottage_cheese", "quantity": 1, "unit": "cup", "grams": 225 },
+    { "ingredient": "strawberries", "quantity": 6, "unit": "medium", "grams": 100, "prep": "hulled and sliced" },
+    { "ingredient": "pumpkin_seeds", "quantity": 2, "unit": "tbsp", "grams": 16 },
+    { "ingredient": "maple", "quantity": 1, "unit": "tsp", "grams": 7 },
+    { "ingredient": "cinnamon", "quantity": 1, "unit": "pinch", "grams": 0.3 }
+   ],
+   "diet": {
+    "vegan": "incompatible",
+    "vegetarian": "conditional",
+    "modifications": {
+     "vegetarian": "Some cottage cheese is set with animal rennet: choose one the label says uses microbial or no rennet."
+    }
+   },
+   "steps": [
+    { "title": "Start the bowl", "text": "Spoon the cottage cheese into a bowl." },
+    { "title": "Top", "text": "Scatter over the strawberries and pumpkin seeds." },
+    { "title": "Finish", "text": "Drizzle with the maple syrup, add a pinch of cinnamon and eat straight away." }
+   ]
+  },
+  {
+   "slug": "greek-yogurt-cinnamon-apple",
+   "name": "Greek yogurt with cinnamon apple and almonds",
+   "style": "Greek-style",
+   "description": "Thick yogurt under quickly warmed cinnamon apple and toasted almonds. A five-minute breakfast with a soft, sweet topping and no added sugar beyond a little maple.",
+   "servings": 1,
+   "prepMinutes": 5,
+   "cookMinutes": 5,
+   "cuisine": "mediterranean",
+   "mealTypes": [
+    "breakfast",
+    "snack"
+   ],
+   "equipment": [
+    "small frying pan",
+    "bowl"
+   ],
+   "servingNote": "Makes one bowl.",
+   "ingredients": [
+    { "ingredient": "greek_yogurt", "quantity": 1, "unit": "cup", "grams": 250, "group": "yogurt" },
+    { "ingredient": "soy_yogurt", "quantity": 1, "unit": "cup", "grams": 250, "group": "yogurt", "default": false, "note": "Soy yogurt in place of Greek yogurt makes the bowl vegan, with much less protein." },
+    { "ingredient": "apple", "quantity": 1, "unit": "small", "grams": 150, "prep": "cored and diced" },
+    { "ingredient": "cinnamon", "quantity": 0.5, "unit": "tsp", "grams": 1.3 },
+    { "ingredient": "maple", "quantity": 1, "unit": "tsp", "grams": 7 },
+    { "ingredient": "almonds", "quantity": 2, "unit": "tbsp", "grams": 18, "prep": "roughly chopped" }
+   ],
+   "diet": {
+    "vegan": "incompatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Toast the almonds", "text": "Toast the almonds in the dry pan over medium heat, shaking often, until they smell nutty. Tip them out.", "timer": 180 },
+    { "title": "Warm the apple", "text": "Add the apple, cinnamon, maple syrup and a tablespoon of water to the same pan. Cook, stirring, until the apple just softens.", "timer": 180 },
+    { "title": "Assemble", "text": "Spoon the yogurt into a bowl and top with the warm apple and the almonds." }
+   ]
+  },
+  {
+   "slug": "spinach-feta-egg-muffins",
+   "name": "Spinach and feta egg muffins",
+   "style": "Greek-style",
+   "description": "Little baked egg cups with wilted spinach, red pepper and crumbled feta. Make a tray on Sunday and keep them in the fridge for quick breakfasts.",
+   "servings": 2,
+   "prepMinutes": 10,
+   "cookMinutes": 20,
+   "cuisine": "mediterranean",
+   "mealTypes": [
+    "breakfast",
+    "snack"
+   ],
+   "equipment": [
+    "oven",
+    "6-hole muffin tin",
+    "mixing bowl",
+    "whisk",
+    "frying pan"
+   ],
+   "servingNote": "One serving is three muffins.",
+   "ingredients": [
+    { "ingredient": "eggs", "quantity": 6, "unit": "large", "grams": 300 },
+    { "ingredient": "spinach", "quantity": 2, "unit": "cups", "grams": 60 },
+    { "ingredient": "red_pepper", "quantity": 0.5, "unit": "medium", "grams": 60, "prep": "finely diced" },
+    { "ingredient": "feta", "quantity": 0.33, "unit": "cup", "grams": 50, "prep": "crumbled" },
+    { "ingredient": "olive_oil", "quantity": 1, "unit": "tsp", "grams": 4.5, "prep": "plus a little for the tin" },
+    { "ingredient": "oregano", "quantity": 0.5, "unit": "tsp", "grams": 0.5 },
+    { "ingredient": "black_pepper", "quantity": 1, "unit": "pinch", "grams": 0.3 },
+    { "ingredient": "salt", "quantity": 0.25, "unit": "tsp", "grams": 1.5 }
+   ],
+   "diet": {
+    "vegan": "incompatible",
+    "vegetarian": "conditional",
+    "modifications": {
+     "vegetarian": "Feta is often made with animal rennet: choose one the label says uses microbial or vegetable rennet."
+    }
+   },
+   "steps": [
+    { "title": "Heat the oven", "text": "Heat the oven to 180 °C (350 °F). Brush the muffin tin with a little oil." },
+    { "title": "Wilt the vegetables", "text": "Warm the oil in the frying pan and cook the red pepper for two minutes. Add the spinach and stir until it collapses. Let it cool a little.", "timer": 180 },
+    { "title": "Mix", "text": "Whisk the eggs with the oregano, salt and pepper. Stir in the vegetables and the feta." },
+    { "title": "Bake", "text": "Divide the mixture between the six holes. Bake until puffed and set in the middle.", "timer": 1080 },
+    { "title": "Cool and serve", "text": "Leave in the tin for a few minutes, then loosen with a knife. Eat warm, or cool and refrigerate for up to three days." }
+   ]
+  },
+  {
+   "slug": "peanut-butter-banana-toast",
+   "name": "Peanut butter banana toast with hemp seeds",
+   "style": "American-style",
+   "description": "Whole-wheat toast spread with peanut butter, topped with sliced banana, hemp seeds and a dusting of cinnamon. Quick, filling and easy to carry.",
+   "servings": 1,
+   "prepMinutes": 5,
+   "cookMinutes": 3,
+   "cuisine": "american",
+   "mealTypes": [
+    "breakfast",
+    "snack"
+   ],
+   "equipment": [
+    "toaster",
+    "knife"
+   ],
+   "servingNote": "Two slices of toast.",
+   "ingredients": [
+    { "ingredient": "ww_bread", "quantity": 2, "unit": "slices", "grams": 64 },
+    { "ingredient": "peanut_butter", "quantity": 2, "unit": "tbsp", "grams": 32 },
+    { "ingredient": "banana", "quantity": 1, "unit": "small", "grams": 100, "prep": "sliced" },
+    { "ingredient": "hemp_seeds", "quantity": 1, "unit": "tbsp", "grams": 10 },
+    { "ingredient": "cinnamon", "quantity": 1, "unit": "pinch", "grams": 0.3 }
+   ],
+   "diet": {
+    "vegan": "conditional",
+    "vegetarian": "compatible",
+    "modifications": {
+     "vegan": "Some sliced breads contain milk, egg or honey: for a vegan sandwich choose a loaf whose label lists none."
+    }
+   },
+   "steps": [
+    { "title": "Toast", "text": "Toast the bread until golden." },
+    { "title": "Spread", "text": "Spread the peanut butter over the warm toast so it softens." },
+    { "title": "Top", "text": "Lay the banana slices on top and sprinkle with hemp seeds and cinnamon." }
+   ]
+  },
+  {
+   "slug": "ginger-rice-porridge-tofu",
+   "name": "Ginger rice porridge with tofu and bok choy",
+   "style": "Chinese-style",
+   "description": "A soft, savoury rice porridge cooked with plenty of ginger, finished with silky tofu, bok choy, scallions and a few drops of soy and sesame. Gentle and warming.",
+   "servings": 2,
+   "prepMinutes": 10,
+   "cookMinutes": 40,
+   "cuisine": "asian",
+   "mealTypes": [
+    "breakfast",
+    "lunch"
+   ],
+   "equipment": [
+    "heavy pot with a lid",
+    "wooden spoon",
+    "knife"
+   ],
+   "servingNote": "One serving is one large bowl.",
+   "ingredients": [
+    { "ingredient": "basmati", "quantity": 0.33, "unit": "cup", "grams": 65, "prep": "rinsed" },
+    { "ingredient": "water", "quantity": 4, "unit": "cups", "grams": 950 },
+    { "ingredient": "ginger", "quantity": 1, "unit": "thumb", "grams": 15, "prep": "cut into thin matchsticks" },
+    { "ingredient": "salt", "quantity": 0.5, "unit": "tsp", "grams": 3 },
+    { "ingredient": "tofu", "quantity": 280, "unit": "g", "grams": 280, "prep": "cut into small cubes" },
+    { "ingredient": "bok_choy", "quantity": 2, "unit": "small heads", "grams": 150, "prep": "sliced" },
+    { "ingredient": "scallions", "quantity": 2, "unit": "whole", "grams": 30, "prep": "thinly sliced" },
+    { "ingredient": "soy_sauce", "quantity": 1, "unit": "tbsp", "grams": 16 },
+    { "ingredient": "sesame_oil", "quantity": 1, "unit": "tsp", "grams": 4.5 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Simmer the rice", "text": "Put the rice, water, half the ginger and the salt in the pot. Bring to the boil, then lower the heat, cover partly and simmer, stirring now and then so it does not catch.", "timer": 1800 },
+    { "title": "Check the texture", "text": "The rice should have broken down into a thick, creamy porridge. Add a little hot water if it is stiffer than you like." },
+    { "title": "Add tofu and greens", "text": "Stir in the tofu and bok choy and simmer until the greens are tender and the tofu is hot.", "timer": 300 },
+    { "title": "Serve", "text": "Ladle into bowls. Top with the scallions and the rest of the ginger, then drizzle with soy sauce and sesame oil." }
+   ]
+  },
+  {
+   "slug": "eggs-spiced-pinto-beans",
+   "name": "Eggs on spiced pinto beans with salsa",
+   "style": "Mexican-style",
+   "description": "Fried eggs on smoky, garlicky pinto beans with warm corn tortillas and fresh salsa. A hearty breakfast or an easy weeknight supper.",
+   "servings": 2,
+   "prepMinutes": 5,
+   "cookMinutes": 15,
+   "cuisine": "mexican",
+   "mealTypes": [
+    "breakfast",
+    "lunch"
+   ],
+   "equipment": [
+    "frying pan",
+    "small pot",
+    "potato masher or fork"
+   ],
+   "servingNote": "One serving is two eggs on half the beans, with two tortillas.",
+   "ingredients": [
+    { "ingredient": "pinto_beans", "quantity": 1, "unit": "can", "grams": 250, "prep": "drained, liquid kept" },
+    { "ingredient": "olive_oil", "quantity": 1, "unit": "tbsp", "grams": 14 },
+    { "ingredient": "garlic", "quantity": 2, "unit": "cloves", "grams": 6, "prep": "chopped" },
+    { "ingredient": "cumin", "quantity": 0.5, "unit": "tsp", "grams": 1.2 },
+    { "ingredient": "smoked_paprika", "quantity": 0.5, "unit": "tsp", "grams": 1.2 },
+    { "ingredient": "eggs", "quantity": 4, "unit": "large", "grams": 200, "group": "protein" },
+    { "ingredient": "tofu", "quantity": 200, "unit": "g", "grams": 200, "group": "protein", "default": false, "prep": "sliced and pan-fried", "note": "Pan-fried slices of extra-firm tofu in place of the eggs make the plate vegan." },
+    { "ingredient": "corn_tortillas", "quantity": 4, "unit": "small", "grams": 104 },
+    { "ingredient": "salsa", "quantity": 6, "unit": "tbsp", "grams": 96 },
+    { "ingredient": "salt", "quantity": 0.25, "unit": "tsp", "grams": 1.5 }
+   ],
+   "diet": {
+    "vegan": "incompatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Warm the spices", "text": "Heat half the oil in the small pot over medium heat. Add the garlic, cumin and paprika and stir for 30 seconds, until fragrant." },
+    { "title": "Cook the beans", "text": "Add the beans with a few spoonfuls of their liquid and the salt. Simmer, mashing about half of them, until thick and creamy.", "timer": 300 },
+    { "title": "Fry the eggs", "text": "Heat the rest of the oil in the frying pan and fry the eggs until the whites are set and the yolks are as you like them.", "timer": 240 },
+    { "title": "Warm the tortillas", "text": "Warm the tortillas in a dry pan or directly over a gas flame for a few seconds a side." },
+    { "title": "Serve", "text": "Spoon the beans onto plates, put the eggs on top and finish with salsa. Serve the tortillas alongside." }
+   ]
+  },
+  {
+   "slug": "apple-cinnamon-baked-oatmeal",
+   "name": "Apple cinnamon baked oatmeal",
+   "style": "American-style",
+   "description": "Oats, apple, walnuts and soy milk baked into a soft, sliceable breakfast. Make it once and reheat squares through the week.",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 35,
+   "cuisine": "american",
+   "mealTypes": [
+    "breakfast"
+   ],
+   "equipment": [
+    "oven",
+    "20 cm square baking dish",
+    "mixing bowl"
+   ],
+   "servingNote": "One serving is a quarter of the dish.",
+   "ingredients": [
+    { "ingredient": "oats", "quantity": 2, "unit": "cups", "grams": 180 },
+    { "ingredient": "soy_milk", "quantity": 2, "unit": "cups", "grams": 480 },
+    { "ingredient": "flaxseed", "quantity": 2, "unit": "tbsp", "grams": 14 },
+    { "ingredient": "apple", "quantity": 1, "unit": "large", "grams": 200, "prep": "cored and diced" },
+    { "ingredient": "walnuts", "quantity": 0.33, "unit": "cup", "grams": 40, "prep": "chopped" },
+    { "ingredient": "maple", "quantity": 3, "unit": "tbsp", "grams": 60 },
+    { "ingredient": "cinnamon", "quantity": 1.5, "unit": "tsp", "grams": 4 },
+    { "ingredient": "baking_powder", "quantity": 1, "unit": "tsp", "grams": 4.6 },
+    { "ingredient": "vanilla", "quantity": 1, "unit": "tsp", "grams": 4.2 },
+    { "ingredient": "salt", "quantity": 1, "unit": "pinch", "grams": 0.5 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Heat the oven", "text": "Heat the oven to 190 °C (375 °F) and lightly oil the baking dish." },
+    { "title": "Mix the dry", "text": "Stir the oats, flaxseed, cinnamon, baking powder and salt together in the bowl." },
+    { "title": "Add the wet", "text": "Pour in the soy milk, maple syrup and vanilla and stir. Fold in most of the apple and walnuts." },
+    { "title": "Bake", "text": "Spread in the dish, scatter the rest of the apple and walnuts over the top and bake until golden and just set in the centre.", "timer": 2100 },
+    { "title": "Rest and slice", "text": "Leave for 10 minutes before cutting into four squares. Keeps in the fridge for four days." }
+   ]
+  },
+  {
+   "slug": "berry-silken-tofu-smoothie",
+   "name": "Berry, oat and silken tofu smoothie",
+   "style": "American-style",
+   "description": "A thick purple smoothie of blueberries, banana, oats, silken tofu and soy milk. Blended in a minute, it keeps you going until lunch.",
+   "servings": 1,
+   "prepMinutes": 5,
+   "cookMinutes": 0,
+   "cuisine": "american",
+   "mealTypes": [
+    "breakfast",
+    "snack"
+   ],
+   "equipment": [
+    "blender"
+   ],
+   "servingNote": "Makes one large glass.",
+   "ingredients": [
+    { "ingredient": "silken_tofu", "quantity": 150, "unit": "g", "grams": 150 },
+    { "ingredient": "soy_milk", "quantity": 1.25, "unit": "cups", "grams": 300 },
+    { "ingredient": "blueberries", "quantity": 0.75, "unit": "cup", "grams": 110, "prep": "fresh or frozen" },
+    { "ingredient": "banana", "quantity": 0.5, "unit": "medium", "grams": 60 },
+    { "ingredient": "oats", "quantity": 3, "unit": "tbsp", "grams": 20 },
+    { "ingredient": "hemp_seeds", "quantity": 1, "unit": "tbsp", "grams": 10 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Load the blender", "text": "Put the soy milk in the blender first, then the tofu, oats, hemp seeds, banana and blueberries." },
+    { "title": "Blend", "text": "Blend on high until completely smooth, about one minute. Add a splash more soy milk if it is too thick." },
+    { "title": "Serve", "text": "Pour into a glass and drink straight away." }
+   ]
+  },
+  {
+   "slug": "black-bean-corn-avocado-salad",
+   "name": "Black bean, corn and avocado salad",
+   "style": "Mexican-style",
+   "description": "Black beans and sweet corn tossed with peppers, red onion, jalapeño and lime, with creamy avocado folded in at the end. Good on its own or with tortilla chips.",
+   "servings": 3,
+   "prepMinutes": 15,
+   "cookMinutes": 0,
+   "cuisine": "mexican",
+   "mealTypes": [
+    "lunch"
+   ],
+   "equipment": [
+    "large bowl",
+    "knife",
+    "small jar or bowl"
+   ],
+   "servingNote": "One serving is a third of the bowl.",
+   "ingredients": [
+    { "ingredient": "black_beans", "quantity": 2, "unit": "cups", "grams": 340, "prep": "rinsed and drained" },
+    { "ingredient": "corn", "quantity": 1, "unit": "cup", "grams": 150, "prep": "fresh, or frozen and thawed" },
+    { "ingredient": "red_pepper", "quantity": 1, "unit": "medium", "grams": 120, "prep": "diced" },
+    { "ingredient": "onion", "quantity": 0.25, "unit": "medium", "grams": 30, "prep": "red onion if you have it, finely diced" },
+    { "ingredient": "jalapeno", "quantity": 1, "unit": "whole", "grams": 14, "prep": "seeded and finely chopped" },
+    { "ingredient": "avocado", "quantity": 1, "unit": "medium", "grams": 150, "prep": "diced" },
+    { "ingredient": "coriander_leaf", "quantity": 0.5, "unit": "cup", "grams": 8, "prep": "chopped" },
+    { "ingredient": "lime_juice", "quantity": 3, "unit": "tbsp", "grams": 45 },
+    { "ingredient": "olive_oil", "quantity": 1.5, "unit": "tbsp", "grams": 21 },
+    { "ingredient": "cumin", "quantity": 0.5, "unit": "tsp", "grams": 1.2 },
+    { "ingredient": "salt", "quantity": 0.5, "unit": "tsp", "grams": 3 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Make the dressing", "text": "Shake or whisk the lime juice, olive oil, cumin and salt together." },
+    { "title": "Combine", "text": "Put the beans, corn, pepper, onion and jalapeño in the bowl, pour over the dressing and toss well." },
+    { "title": "Rest", "text": "Leave for 10 minutes so the onion mellows and the beans take on the dressing.", "timer": 600 },
+    { "title": "Finish", "text": "Just before serving, fold in the avocado and coriander gently so the avocado keeps its shape. Taste for salt and lime." }
+   ]
+  },
+  {
+   "slug": "lentil-bulgur-herb-salad",
+   "name": "Lentil and bulgur herb salad",
+   "style": "Lebanese-style",
+   "description": "Green lentils and bulgur with a big handful of parsley and mint, tomato, cucumber and a sharp lemon dressing. It keeps well, so it is ideal for packed lunches.",
+   "servings": 3,
+   "prepMinutes": 15,
+   "cookMinutes": 25,
+   "cuisine": "middle_eastern",
+   "mealTypes": [
+    "lunch",
+    "dinner"
+   ],
+   "equipment": [
+    "medium pot",
+    "sieve",
+    "heatproof bowl",
+    "large bowl"
+   ],
+   "servingNote": "One serving is a third of the bowl.",
+   "ingredients": [
+    { "ingredient": "green_lentils", "quantity": 0.75, "unit": "cup", "grams": 150, "prep": "rinsed" },
+    { "ingredient": "bulgur", "quantity": 0.5, "unit": "cup", "grams": 90 },
+    { "ingredient": "parsley", "quantity": 1, "unit": "large bunch", "grams": 60, "prep": "finely chopped" },
+    { "ingredient": "mint", "quantity": 0.5, "unit": "bunch", "grams": 15, "prep": "leaves chopped" },
+    { "ingredient": "tomato", "quantity": 2, "unit": "medium", "grams": 240, "prep": "diced" },
+    { "ingredient": "cucumber", "quantity": 0.5, "unit": "whole", "grams": 150, "prep": "diced" },
+    { "ingredient": "scallions", "quantity": 3, "unit": "whole", "grams": 45, "prep": "thinly sliced" },
+    { "ingredient": "lemon_juice", "quantity": 4, "unit": "tbsp", "grams": 60 },
+    { "ingredient": "olive_oil", "quantity": 3, "unit": "tbsp", "grams": 42 },
+    { "ingredient": "salt", "quantity": 0.75, "unit": "tsp", "grams": 4.5 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Cook the lentils", "text": "Cover the lentils with plenty of water and simmer until tender but still holding their shape. Drain well.", "timer": 1320 },
+    { "title": "Soak the bulgur", "text": "Meanwhile put the bulgur in the heatproof bowl, pour over boiling water to cover by 1 cm and leave until tender. Drain off any water left.", "timer": 900 },
+    { "title": "Dress while warm", "text": "Mix the warm lentils and bulgur with the lemon juice, olive oil and salt in the large bowl and leave to cool." },
+    { "title": "Add the fresh things", "text": "Stir in the parsley, mint, tomato, cucumber and scallions. Taste and add more lemon or salt if needed." }
+   ]
+  },
+  {
+   "slug": "hummus-roast-vegetable-pita",
+   "name": "Hummus and roasted vegetable pita",
+   "style": "Middle Eastern-style",
+   "description": "Quick home-made hummus spread inside warm whole-wheat pita with oven-roasted eggplant, zucchini and pepper. Make the hummus ahead and lunch is ready in minutes.",
+   "servings": 2,
+   "prepMinutes": 15,
+   "cookMinutes": 25,
+   "cuisine": "middle_eastern",
+   "mealTypes": [
+    "lunch"
+   ],
+   "equipment": [
+    "oven",
+    "baking tray",
+    "food processor or blender"
+   ],
+   "servingNote": "One serving is one stuffed pita.",
+   "ingredients": [
+    { "ingredient": "chickpeas", "quantity": 1, "unit": "can", "grams": 240, "prep": "drained, 3 tbsp liquid kept" },
+    { "ingredient": "tahini", "quantity": 2, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "lemon_juice", "quantity": 2, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "garlic", "quantity": 1, "unit": "clove", "grams": 3 },
+    { "ingredient": "cumin", "quantity": 0.5, "unit": "tsp", "grams": 1.2 },
+    { "ingredient": "eggplant", "quantity": 1, "unit": "small", "grams": 250, "prep": "cut into 2 cm pieces" },
+    { "ingredient": "zucchini", "quantity": 1, "unit": "medium", "grams": 200, "prep": "cut into half-moons" },
+    { "ingredient": "red_pepper", "quantity": 1, "unit": "medium", "grams": 120, "prep": "cut into strips" },
+    { "ingredient": "olive_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "salt", "quantity": 0.75, "unit": "tsp", "grams": 4.5 },
+    { "ingredient": "ww_pita", "quantity": 2, "unit": "large", "grams": 128 }
+   ],
+   "diet": {
+    "vegan": "conditional",
+    "vegetarian": "compatible",
+    "modifications": {
+     "vegan": "Some pita contains milk or honey: for a vegan meal choose one whose label lists neither."
+    }
+   },
+   "steps": [
+    { "title": "Roast the vegetables", "text": "Heat the oven to 220 °C (425 °F). Toss the eggplant, zucchini and pepper with most of the oil and half the salt on the tray. Roast, turning once, until soft and browned at the edges.", "timer": 1500 },
+    { "title": "Blend the hummus", "text": "While they roast, blend the chickpeas, tahini, lemon juice, garlic, cumin and the rest of the salt and oil. Add the kept chickpea liquid a spoon at a time until smooth." },
+    { "title": "Warm the pita", "text": "Warm the pita in the oven for the last two minutes, then cut each one open into a pocket." },
+    { "title": "Fill", "text": "Spread a thick layer of hummus inside each pita and pack in the roasted vegetables." }
+   ]
+  },
+  {
+   "slug": "smoky-tempeh-lettuce-tomato-sandwich",
+   "name": "Smoky tempeh, lettuce and tomato sandwich",
+   "style": "American diner-style",
+   "description": "Thin slices of tempeh glazed with soy, maple and smoked paprika until crisp, stacked with crunchy lettuce and ripe tomato on toasted whole-wheat bread.",
+   "servings": 2,
+   "prepMinutes": 10,
+   "cookMinutes": 10,
+   "cuisine": "american",
+   "mealTypes": [
+    "lunch"
+   ],
+   "equipment": [
+    "frying pan",
+    "small bowl",
+    "toaster"
+   ],
+   "servingNote": "One serving is one sandwich.",
+   "ingredients": [
+    { "ingredient": "tempeh", "quantity": 200, "unit": "g", "grams": 200, "prep": "cut into thin slices" },
+    { "ingredient": "soy_sauce", "quantity": 1.5, "unit": "tbsp", "grams": 24 },
+    { "ingredient": "maple", "quantity": 1, "unit": "tbsp", "grams": 20 },
+    { "ingredient": "smoked_paprika", "quantity": 1, "unit": "tsp", "grams": 2.3 },
+    { "ingredient": "cider_vinegar", "quantity": 1, "unit": "tsp", "grams": 5 },
+    { "ingredient": "sunflower_oil", "quantity": 1, "unit": "tbsp", "grams": 14 },
+    { "ingredient": "ww_bread", "quantity": 4, "unit": "slices", "grams": 128 },
+    { "ingredient": "romaine", "quantity": 4, "unit": "leaves", "grams": 40 },
+    { "ingredient": "tomato", "quantity": 1, "unit": "large", "grams": 150, "prep": "sliced" },
+    { "ingredient": "mustard", "quantity": 2, "unit": "tsp", "grams": 10 }
+   ],
+   "diet": {
+    "vegan": "conditional",
+    "vegetarian": "compatible",
+    "modifications": {
+     "vegan": "Some sliced breads contain milk, egg or honey: for a vegan sandwich choose a loaf whose label lists none."
+    }
+   },
+   "steps": [
+    { "title": "Mix the glaze", "text": "Stir the soy sauce, maple syrup, smoked paprika and vinegar together in the small bowl." },
+    { "title": "Crisp the tempeh", "text": "Heat the oil in the frying pan over medium-high heat. Lay in the tempeh slices and fry until golden on both sides.", "timer": 360 },
+    { "title": "Glaze", "text": "Pour the glaze over the tempeh and turn the slices until it bubbles away to a sticky coating. Take off the heat.", "timer": 60 },
+    { "title": "Build", "text": "Toast the bread, spread with mustard and layer the lettuce, tomato and tempeh. Close, press lightly and cut in half." }
+   ]
+  },
+  {
+   "slug": "cold-soba-edamame-miso",
+   "name": "Cold soba with edamame and miso-sesame dressing",
+   "style": "Japanese-style",
+   "description": "Chilled buckwheat noodles with edamame, cucumber and carrot in a nutty miso, sesame and lime dressing. Refreshing on a warm day and quick to pack.",
+   "servings": 2,
+   "prepMinutes": 15,
+   "cookMinutes": 8,
+   "cuisine": "asian",
+   "mealTypes": [
+    "lunch",
+    "dinner"
+   ],
+   "equipment": [
+    "large pot",
+    "colander",
+    "small bowl",
+    "whisk or fork"
+   ],
+   "servingNote": "One serving is one bowl.",
+   "ingredients": [
+    { "ingredient": "soba", "quantity": 150, "unit": "g", "grams": 150 },
+    { "ingredient": "edamame", "quantity": 1.5, "unit": "cups", "grams": 225, "prep": "frozen, thawed" },
+    { "ingredient": "cucumber", "quantity": 0.5, "unit": "whole", "grams": 150, "prep": "cut into thin sticks" },
+    { "ingredient": "carrot", "quantity": 1, "unit": "medium", "grams": 60, "prep": "grated" },
+    { "ingredient": "miso", "quantity": 1.5, "unit": "tbsp", "grams": 25, "prep": "plain white miso (not dashi miso)" },
+    { "ingredient": "tahini", "quantity": 1, "unit": "tbsp", "grams": 15 },
+    { "ingredient": "lime_juice", "quantity": 2, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "sesame_oil", "quantity": 1, "unit": "tsp", "grams": 4.5 },
+    { "ingredient": "maple", "quantity": 1, "unit": "tsp", "grams": 7 },
+    { "ingredient": "water", "quantity": 2, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "scallions", "quantity": 2, "unit": "whole", "grams": 30, "prep": "sliced" },
+    { "ingredient": "sesame_seeds", "quantity": 1, "unit": "tbsp", "grams": 9 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Cook the noodles", "text": "Boil the soba in plenty of water until just tender, stirring at the start so it does not stick. Add the edamame for the last minute.", "timer": 300 },
+    { "title": "Cool", "text": "Drain and rinse under cold running water, rubbing the noodles gently to wash off the starch. Drain well." },
+    { "title": "Make the dressing", "text": "Whisk the miso, tahini, lime juice, sesame oil, maple syrup and water until smooth." },
+    { "title": "Toss and serve", "text": "Toss the noodles and edamame with the cucumber, carrot and dressing. Top with scallions and sesame seeds." }
+   ]
+  },
+  {
+   "slug": "white-bean-cucumber-feta-salad",
+   "name": "White bean, cucumber and feta salad",
+   "style": "Greek-style",
+   "description": "Creamy white beans with cucumber, tomato, olives and red onion in an oregano and red wine vinegar dressing, with salty feta crumbled over.",
+   "servings": 3,
+   "prepMinutes": 15,
+   "cookMinutes": 0,
+   "cuisine": "mediterranean",
+   "mealTypes": [
+    "lunch"
+   ],
+   "equipment": [
+    "large bowl",
+    "knife"
+   ],
+   "servingNote": "One serving is a third of the bowl.",
+   "ingredients": [
+    { "ingredient": "white_beans", "quantity": 2, "unit": "cans", "grams": 480, "prep": "drained and rinsed" },
+    { "ingredient": "cucumber", "quantity": 1, "unit": "whole", "grams": 300, "prep": "diced" },
+    { "ingredient": "tomato", "quantity": 2, "unit": "medium", "grams": 240, "prep": "diced" },
+    { "ingredient": "olives", "quantity": 0.33, "unit": "cup", "grams": 45, "prep": "halved" },
+    { "ingredient": "onion", "quantity": 0.25, "unit": "medium", "grams": 30, "prep": "red onion if you have it, thinly sliced" },
+    { "ingredient": "feta", "quantity": 0.5, "unit": "cup", "grams": 75, "prep": "crumbled", "group": "cheese" },
+    { "ingredient": "chickpeas", "quantity": 0.5, "unit": "can", "grams": 120, "group": "cheese", "default": false, "note": "Extra chickpeas in place of the feta make the salad vegan." },
+    { "ingredient": "red_wine_vinegar", "quantity": 1.5, "unit": "tbsp", "grams": 22 },
+    { "ingredient": "olive_oil", "quantity": 3, "unit": "tbsp", "grams": 42 },
+    { "ingredient": "oregano", "quantity": 1, "unit": "tsp", "grams": 1 },
+    { "ingredient": "salt", "quantity": 0.25, "unit": "tsp", "grams": 1.5 }
+   ],
+   "diet": {
+    "vegan": "incompatible",
+    "vegetarian": "conditional",
+    "modifications": {
+     "vegetarian": "Feta is often made with animal rennet: choose one the label says uses microbial or vegetable rennet."
+    }
+   },
+   "steps": [
+    { "title": "Dress the onion", "text": "Put the onion in the bowl with the vinegar, oregano and salt and leave for five minutes to soften its bite.", "timer": 300 },
+    { "title": "Add the rest", "text": "Add the beans, cucumber, tomato, olives and olive oil and toss gently." },
+    { "title": "Finish", "text": "Crumble the feta over the top and serve. Without the feta it keeps for a day in the fridge." }
+   ]
+  },
+  {
+   "slug": "smashed-chickpea-salad-sandwich",
+   "name": "Smashed chickpea salad sandwich",
+   "style": "American deli-style",
+   "description": "Chickpeas roughly mashed with tahini, mustard, lemon, celery and dill, piled onto whole-wheat bread with lettuce. A creamy deli-style sandwich without mayonnaise.",
+   "servings": 2,
+   "prepMinutes": 10,
+   "cookMinutes": 0,
+   "cuisine": "american",
+   "mealTypes": [
+    "lunch"
+   ],
+   "equipment": [
+    "mixing bowl",
+    "fork or potato masher"
+   ],
+   "servingNote": "One serving is one sandwich.",
+   "ingredients": [
+    { "ingredient": "chickpeas", "quantity": 1, "unit": "can", "grams": 240, "prep": "drained" },
+    { "ingredient": "tahini", "quantity": 2, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "mustard", "quantity": 2, "unit": "tsp", "grams": 10 },
+    { "ingredient": "lemon_juice", "quantity": 1, "unit": "tbsp", "grams": 15 },
+    { "ingredient": "celery", "quantity": 1, "unit": "stalk", "grams": 40, "prep": "finely diced" },
+    { "ingredient": "dill", "quantity": 2, "unit": "tbsp", "grams": 4, "prep": "chopped" },
+    { "ingredient": "hemp_seeds", "quantity": 2, "unit": "tbsp", "grams": 20 },
+    { "ingredient": "salt", "quantity": 0.25, "unit": "tsp", "grams": 1.5 },
+    { "ingredient": "black_pepper", "quantity": 1, "unit": "pinch", "grams": 0.3 },
+    { "ingredient": "ww_bread", "quantity": 4, "unit": "slices", "grams": 128 },
+    { "ingredient": "romaine", "quantity": 2, "unit": "leaves", "grams": 20 }
+   ],
+   "diet": {
+    "vegan": "conditional",
+    "vegetarian": "compatible",
+    "modifications": {
+     "vegan": "Some sliced breads contain milk, egg or honey: for a vegan sandwich choose a loaf whose label lists none."
+    }
+   },
+   "steps": [
+    { "title": "Smash", "text": "Mash the chickpeas in the bowl until mostly broken but still a little chunky." },
+    { "title": "Season", "text": "Stir in the tahini, mustard, lemon juice, celery, dill, hemp seeds, salt and pepper. Taste and adjust." },
+    { "title": "Build", "text": "Spread the filling thickly on two slices of bread, add the lettuce and top with the other slices. Cut in half." }
+   ]
+  },
+  {
+   "slug": "tofu-tikka-wraps",
+   "name": "Tofu tikka wraps",
+   "style": "North Indian-style",
+   "description": "Tofu marinated in spiced yogurt, browned in a hot pan with peppers and onion and rolled into warm wraps with a cucumber and mint yogurt sauce.",
+   "servings": 3,
+   "prepMinutes": 20,
+   "cookMinutes": 15,
+   "cuisine": "indian",
+   "mealTypes": [
+    "lunch",
+    "dinner"
+   ],
+   "equipment": [
+    "mixing bowl",
+    "large frying pan",
+    "small bowl"
+   ],
+   "servingNote": "One serving is one large wrap.",
+   "ingredients": [
+    { "ingredient": "tofu", "quantity": 400, "unit": "g", "grams": 400, "prep": "pressed and cut into 2 cm cubes", "group": "protein" },
+    { "ingredient": "paneer", "quantity": 300, "unit": "g", "grams": 300, "prep": "cut into 2 cm cubes", "group": "protein", "default": false, "note": "Paneer in place of tofu. Its protein is not known here (no USDA match), so the recipe total becomes not known." },
+    { "ingredient": "soy_yogurt", "quantity": 0.5, "unit": "cup", "grams": 120, "group": "yogurt", "prep": "for the marinade and the sauce" },
+    { "ingredient": "greek_yogurt", "quantity": 0.5, "unit": "cup", "grams": 120, "group": "yogurt", "default": false, "note": "Greek yogurt in place of soy yogurt, if you eat dairy." },
+    { "ingredient": "ginger", "quantity": 1, "unit": "tbsp", "grams": 8, "prep": "grated" },
+    { "ingredient": "garlic", "quantity": 2, "unit": "cloves", "grams": 6, "prep": "grated" },
+    { "ingredient": "smoked_paprika", "quantity": 1, "unit": "tsp", "grams": 2.3 },
+    { "ingredient": "ground_coriander", "quantity": 1, "unit": "tsp", "grams": 1.8 },
+    { "ingredient": "cumin", "quantity": 1, "unit": "tsp", "grams": 2.5 },
+    { "ingredient": "turmeric", "quantity": 0.5, "unit": "tsp", "grams": 1.5 },
+    { "ingredient": "salt", "quantity": 0.75, "unit": "tsp", "grams": 4.5 },
+    { "ingredient": "lemon_juice", "quantity": 1, "unit": "tbsp", "grams": 15 },
+    { "ingredient": "sunflower_oil", "quantity": 1.5, "unit": "tbsp", "grams": 21 },
+    { "ingredient": "green_pepper", "quantity": 1, "unit": "medium", "grams": 120, "prep": "cut into strips" },
+    { "ingredient": "onion", "quantity": 1, "unit": "medium", "grams": 110, "prep": "cut into wedges" },
+    { "ingredient": "cucumber", "quantity": 0.25, "unit": "whole", "grams": 75, "prep": "grated and squeezed" },
+    { "ingredient": "mint", "quantity": 2, "unit": "tbsp", "grams": 4, "prep": "chopped" },
+    { "ingredient": "ww_tortillas", "quantity": 3, "unit": "large", "grams": 150 }
+   ],
+   "diet": {
+    "vegan": "conditional",
+    "vegetarian": "conditional",
+    "modifications": {
+     "vegan": "Some flour tortillas contain lard, milk or honey: choose ones made with vegetable oil and check the label.",
+     "vegetarian": "Some flour tortillas contain lard, milk or honey: choose ones made with vegetable oil and check the label."
+    }
+   },
+   "steps": [
+    { "title": "Marinate", "text": "In the mixing bowl, stir two-thirds of the yogurt with the ginger, garlic, paprika, coriander, cumin, turmeric, salt and lemon juice. Fold in the tofu and leave for at least 15 minutes.", "timer": 900 },
+    { "title": "Make the sauce", "text": "Mix the rest of the yogurt with the cucumber and mint and a pinch of salt." },
+    { "title": "Cook the vegetables", "text": "Heat half the oil in the frying pan over high heat and cook the pepper and onion until charred in places. Move them to a plate.", "timer": 300 },
+    { "title": "Brown the tofu", "text": "Add the rest of the oil and the tofu with its marinade. Cook, turning the pieces, until browned on several sides.", "timer": 420 },
+    { "title": "Wrap", "text": "Warm the tortillas. Fill each one with tofu, vegetables and a spoon of the sauce, then roll up tightly." }
+   ]
+  },
+  {
+   "slug": "white-bean-minestrone",
+   "name": "Minestrone with white beans",
+   "style": "Italian-style",
+   "description": "A chunky vegetable soup of carrot, celery, zucchini and kale with tomatoes, white beans and small pasta. Better the next day, and freezes well.",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 30,
+   "cuisine": "italian",
+   "mealTypes": [
+    "lunch",
+    "dinner"
+   ],
+   "equipment": [
+    "large pot",
+    "wooden spoon",
+    "knife"
+   ],
+   "servingNote": "One serving is one large bowl, a quarter of the pot.",
+   "ingredients": [
+    { "ingredient": "olive_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "onion", "quantity": 1, "unit": "medium", "grams": 110, "prep": "diced" },
+    { "ingredient": "carrot", "quantity": 2, "unit": "medium", "grams": 120, "prep": "diced" },
+    { "ingredient": "celery", "quantity": 2, "unit": "stalks", "grams": 80, "prep": "diced" },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "chopped" },
+    { "ingredient": "canned_tomatoes", "quantity": 1, "unit": "can", "grams": 400 },
+    { "ingredient": "water", "quantity": 5, "unit": "cups", "grams": 1200 },
+    { "ingredient": "zucchini", "quantity": 1, "unit": "medium", "grams": 200, "prep": "diced" },
+    { "ingredient": "white_beans", "quantity": 1, "unit": "can", "grams": 240, "prep": "drained" },
+    { "ingredient": "spaghetti", "quantity": 0.75, "unit": "cup", "grams": 80, "prep": "small pasta shapes or broken spaghetti" },
+    { "ingredient": "kale", "quantity": 2, "unit": "cups", "grams": 70, "prep": "stems removed, leaves shredded" },
+    { "ingredient": "oregano", "quantity": 1, "unit": "tsp", "grams": 1 },
+    { "ingredient": "salt", "quantity": 1.25, "unit": "tsp", "grams": 7.5 },
+    { "ingredient": "black_pepper", "quantity": 0.25, "unit": "tsp", "grams": 0.6 },
+    { "ingredient": "basil", "quantity": 1, "unit": "small handful", "grams": 6, "prep": "torn, to serve" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Soften the base", "text": "Warm the oil in the pot and cook the onion, carrot and celery over medium heat until soft and sweet. Add the garlic for the last minute.", "timer": 480 },
+    { "title": "Simmer", "text": "Add the tomatoes, water, oregano, salt and pepper. Bring to the boil, then simmer gently.", "timer": 600 },
+    { "title": "Add zucchini and pasta", "text": "Add the zucchini, beans and pasta and simmer until the pasta is tender, stirring now and then.", "timer": 600 },
+    { "title": "Wilt the kale", "text": "Stir in the kale and cook until just tender. Add a little water if the soup is very thick.", "timer": 180 },
+    { "title": "Serve", "text": "Taste for salt and pepper and serve with the basil scattered over." }
+   ]
+  },
+  {
+   "slug": "kale-sweet-potato-quinoa-bowl",
+   "name": "Kale, sweet potato and quinoa bowl with tahini",
+   "style": "American-style",
+   "description": "Roasted sweet potato and chickpeas on quinoa with lemon-massaged kale and a loose tahini dressing. Every part can be made ahead for the week.",
+   "servings": 2,
+   "prepMinutes": 15,
+   "cookMinutes": 30,
+   "cuisine": "american",
+   "mealTypes": [
+    "lunch",
+    "dinner"
+   ],
+   "equipment": [
+    "oven",
+    "baking tray",
+    "small pot with a lid",
+    "mixing bowl"
+   ],
+   "servingNote": "One serving is one bowl.",
+   "ingredients": [
+    { "ingredient": "sweet_potato", "quantity": 1, "unit": "large", "grams": 300, "prep": "cut into 2 cm cubes" },
+    { "ingredient": "chickpeas", "quantity": 1, "unit": "can", "grams": 240, "prep": "drained and patted dry" },
+    { "ingredient": "olive_oil", "quantity": 1.5, "unit": "tbsp", "grams": 21 },
+    { "ingredient": "smoked_paprika", "quantity": 1, "unit": "tsp", "grams": 2.3 },
+    { "ingredient": "quinoa", "quantity": 0.5, "unit": "cup", "grams": 85, "prep": "rinsed" },
+    { "ingredient": "water", "quantity": 1, "unit": "cup", "grams": 240 },
+    { "ingredient": "kale", "quantity": 3, "unit": "cups", "grams": 100, "prep": "stems removed, leaves shredded" },
+    { "ingredient": "lemon_juice", "quantity": 2, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "tahini", "quantity": 2, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "garlic", "quantity": 1, "unit": "small clove", "grams": 2, "prep": "grated" },
+    { "ingredient": "salt", "quantity": 0.75, "unit": "tsp", "grams": 4.5 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Roast", "text": "Heat the oven to 220 °C (425 °F). Toss the sweet potato and chickpeas with the oil, paprika and half the salt on the tray. Roast, stirring halfway, until the potato is tender and the chickpeas are crisp.", "timer": 1800 },
+    { "title": "Cook the quinoa", "text": "Simmer the quinoa in the water with a pinch of salt, covered, until the water is absorbed. Leave covered off the heat for five minutes, then fluff.", "timer": 900 },
+    { "title": "Massage the kale", "text": "Rub the kale with half the lemon juice and a pinch of salt for a minute, until it darkens and softens." },
+    { "title": "Make the dressing", "text": "Whisk the tahini, garlic, the rest of the lemon juice and salt with 2 to 3 tablespoons of water until pourable." },
+    { "title": "Assemble", "text": "Divide the quinoa and kale between two bowls, top with the sweet potato and chickpeas and spoon over the dressing." }
+   ]
+  },
+  {
+   "slug": "ginger-soy-tempeh-broccoli",
+   "name": "Ginger soy tempeh with broccoli and brown rice",
+   "style": "Chinese-style",
+   "description": "Cubes of tempeh and broccoli tossed in a glossy ginger, garlic and soy sauce over nutty brown rice. A simple stir-fry with real staying power.",
+   "servings": 3,
+   "prepMinutes": 15,
+   "cookMinutes": 35,
+   "cuisine": "asian",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "pot with a lid",
+    "wok or large frying pan",
+    "small bowl"
+   ],
+   "servingNote": "One serving is a third of the stir-fry with a third of the rice.",
+   "ingredients": [
+    { "ingredient": "brown_rice", "quantity": 0.75, "unit": "cup", "grams": 150 },
+    { "ingredient": "tempeh", "quantity": 240, "unit": "g", "grams": 240, "prep": "cut into 2 cm cubes" },
+    { "ingredient": "broccoli", "quantity": 1, "unit": "large head", "grams": 350, "prep": "cut into small florets" },
+    { "ingredient": "sunflower_oil", "quantity": 1.5, "unit": "tbsp", "grams": 21 },
+    { "ingredient": "ginger", "quantity": 2, "unit": "tbsp", "grams": 15, "prep": "grated" },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "grated" },
+    { "ingredient": "soy_sauce", "quantity": 3, "unit": "tbsp", "grams": 48 },
+    { "ingredient": "maple", "quantity": 1, "unit": "tbsp", "grams": 20 },
+    { "ingredient": "cornstarch", "quantity": 2, "unit": "tsp", "grams": 5 },
+    { "ingredient": "water", "quantity": 0.33, "unit": "cup", "grams": 80 },
+    { "ingredient": "sesame_seeds", "quantity": 1, "unit": "tbsp", "grams": 9 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Cook the rice", "text": "Simmer the brown rice in plenty of salted water until tender, then drain and return to the pot with the lid on.", "timer": 1800 },
+    { "title": "Mix the sauce", "text": "Stir the soy sauce, maple syrup, cornstarch and water together in the small bowl." },
+    { "title": "Brown the tempeh", "text": "Heat the oil in the wok over medium-high heat and fry the tempeh until golden on most sides. Push it to one side.", "timer": 360 },
+    { "title": "Cook the broccoli", "text": "Add the broccoli and two tablespoons of water, cover for two minutes to steam, then uncover and stir-fry until bright and just tender. Add the ginger and garlic for the last 30 seconds.", "timer": 240 },
+    { "title": "Glaze", "text": "Stir the sauce, pour it in and toss until it thickens and coats everything. Serve over the rice with sesame seeds.", "timer": 60 }
+   ]
+  },
+  {
+   "slug": "black-bean-sweet-potato-enchiladas",
+   "name": "Black bean and sweet potato enchiladas",
+   "style": "Mexican-style",
+   "description": "Corn tortillas rolled around a cumin-spiced black bean and sweet potato filling, baked under a quick tomato and chili sauce and finished with avocado.",
+   "servings": 4,
+   "prepMinutes": 20,
+   "cookMinutes": 35,
+   "cuisine": "mexican",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "oven",
+    "medium pot",
+    "blender",
+    "baking dish",
+    "frying pan"
+   ],
+   "servingNote": "One serving is two enchiladas.",
+   "ingredients": [
+    { "ingredient": "sweet_potato", "quantity": 2, "unit": "medium", "grams": 400, "prep": "peeled and cut into 1 cm cubes" },
+    { "ingredient": "black_beans", "quantity": 3, "unit": "cups", "grams": 510, "prep": "rinsed and drained" },
+    { "ingredient": "onion", "quantity": 1, "unit": "medium", "grams": 110, "prep": "chopped" },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "chopped" },
+    { "ingredient": "sunflower_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "cumin", "quantity": 2, "unit": "tsp", "grams": 5 },
+    { "ingredient": "chili_powder", "quantity": 1, "unit": "tbsp", "grams": 8 },
+    { "ingredient": "oregano", "quantity": 1, "unit": "tsp", "grams": 1 },
+    { "ingredient": "canned_tomatoes", "quantity": 1, "unit": "can", "grams": 400 },
+    { "ingredient": "salt", "quantity": 1, "unit": "tsp", "grams": 6 },
+    { "ingredient": "corn_tortillas", "quantity": 8, "unit": "small", "grams": 208 },
+    { "ingredient": "avocado", "quantity": 1, "unit": "medium", "grams": 150, "prep": "sliced, to serve" },
+    { "ingredient": "coriander_leaf", "quantity": 0.25, "unit": "cup", "grams": 5, "prep": "chopped, to serve" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Cook the sweet potato", "text": "Boil the sweet potato in salted water until just tender. Drain.", "timer": 480 },
+    { "title": "Make the sauce", "text": "Heat half the oil in the pot, add half the onion and garlic and cook until soft. Add half the cumin, the chili powder, oregano, tomatoes and half the salt. Simmer for 10 minutes, then blend smooth.", "timer": 600 },
+    { "title": "Make the filling", "text": "Heat the oven to 200 °C (400 °F). In the frying pan, cook the rest of the onion and garlic in the rest of the oil, then add the beans, sweet potato and the rest of the cumin and salt. Mash lightly." },
+    { "title": "Roll", "text": "Warm the tortillas so they bend without cracking. Spread a little sauce in the dish, fill each tortilla, roll it up and lay it seam down. Pour the rest of the sauce over." },
+    { "title": "Bake", "text": "Cover with foil and bake until bubbling at the edges.", "timer": 1200 },
+    { "title": "Serve", "text": "Top with avocado and coriander and serve two per person." }
+   ]
+  },
+  {
+   "slug": "spaghetti-lentil-tomato-sauce",
+   "name": "Spaghetti with lentil tomato sauce",
+   "style": "Italian-style",
+   "description": "A thick, slow-simmered sauce of lentils, tomato, carrot and celery spooned over spaghetti. Hearty, freezer-friendly and much cheaper than a meat sauce.",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 40,
+   "cuisine": "italian",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "large pot",
+    "deep frying pan or saucepan",
+    "colander"
+   ],
+   "servingNote": "One serving is a quarter of the pasta and sauce.",
+   "ingredients": [
+    { "ingredient": "olive_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "onion", "quantity": 1, "unit": "medium", "grams": 110, "prep": "finely chopped" },
+    { "ingredient": "carrot", "quantity": 1, "unit": "medium", "grams": 60, "prep": "finely chopped" },
+    { "ingredient": "celery", "quantity": 1, "unit": "stalk", "grams": 40, "prep": "finely chopped" },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "chopped" },
+    { "ingredient": "tomato_paste", "quantity": 2, "unit": "tbsp", "grams": 32 },
+    { "ingredient": "green_lentils", "quantity": 1, "unit": "cup", "grams": 190, "prep": "rinsed" },
+    { "ingredient": "canned_tomatoes", "quantity": 2, "unit": "cans", "grams": 800 },
+    { "ingredient": "water", "quantity": 2, "unit": "cups", "grams": 480 },
+    { "ingredient": "oregano", "quantity": 1, "unit": "tsp", "grams": 1 },
+    { "ingredient": "salt", "quantity": 1.25, "unit": "tsp", "grams": 7.5 },
+    { "ingredient": "spaghetti", "quantity": 320, "unit": "g", "grams": 320 },
+    { "ingredient": "basil", "quantity": 1, "unit": "small handful", "grams": 6, "prep": "torn" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Cook the base", "text": "Warm the oil in the frying pan and cook the onion, carrot and celery over medium heat until soft. Stir in the garlic and tomato paste and cook for a minute more.", "timer": 540 },
+    { "title": "Simmer the lentils", "text": "Add the lentils, tomatoes, water, oregano and salt. Bring to the boil, then simmer gently, stirring now and then and adding a splash of water if it gets dry, until the lentils are soft.", "timer": 1800 },
+    { "title": "Cook the pasta", "text": "Towards the end, cook the spaghetti in a large pot of salted boiling water until just tender. Keep a cup of the cooking water, then drain.", "timer": 600 },
+    { "title": "Toss and serve", "text": "Toss the spaghetti with the sauce, loosening with a little cooking water. Serve with basil." }
+   ]
+  },
+  {
+   "slug": "seitan-pepper-fajitas",
+   "name": "Seitan and pepper fajitas",
+   "style": "Tex-Mex-style",
+   "description": "Home-made seitan strips seared with charred peppers and onion in a smoky chili and lime seasoning, served in warm corn tortillas. Making the seitan takes 30 minutes and it keeps for days.",
+   "servings": 4,
+   "prepMinutes": 20,
+   "cookMinutes": 40,
+   "cuisine": "mexican",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "mixing bowl",
+    "large pot",
+    "large frying pan or griddle"
+   ],
+   "servingNote": "One serving is three fajitas.",
+   "ingredients": [
+    { "ingredient": "vital_wheat_gluten", "quantity": 1.25, "unit": "cups", "grams": 150 },
+    { "ingredient": "garlic_powder", "quantity": 1, "unit": "tsp", "grams": 3 },
+    { "ingredient": "water", "quantity": 0.75, "unit": "cup", "grams": 180, "prep": "for the dough, plus more for simmering" },
+    { "ingredient": "soy_sauce", "quantity": 3, "unit": "tbsp", "grams": 48 },
+    { "ingredient": "sunflower_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "red_pepper", "quantity": 1, "unit": "medium", "grams": 120, "prep": "sliced" },
+    { "ingredient": "green_pepper", "quantity": 1, "unit": "medium", "grams": 120, "prep": "sliced" },
+    { "ingredient": "onion", "quantity": 1, "unit": "large", "grams": 150, "prep": "sliced" },
+    { "ingredient": "chili_powder", "quantity": 2, "unit": "tsp", "grams": 5.4 },
+    { "ingredient": "cumin", "quantity": 1, "unit": "tsp", "grams": 2.5 },
+    { "ingredient": "smoked_paprika", "quantity": 1, "unit": "tsp", "grams": 2.3 },
+    { "ingredient": "lime_juice", "quantity": 2, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "corn_tortillas", "quantity": 12, "unit": "small", "grams": 312 },
+    { "ingredient": "salsa", "quantity": 0.5, "unit": "cup", "grams": 130 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Make the dough", "text": "Mix the gluten and garlic powder in the bowl. Add the water and one tablespoon of the soy sauce and stir, then knead for two minutes until springy." },
+    { "title": "Simmer the seitan", "text": "Cut the dough into four pieces and stretch them flat. Put them in the pot with plenty of cold water and the rest of the soy sauce. Bring to a bare simmer (never a hard boil) and cook, turning once.", "timer": 1800 },
+    { "title": "Slice", "text": "Lift out the seitan, let it cool for a few minutes and squeeze out the excess liquid. Cut into thin strips." },
+    { "title": "Char the vegetables", "text": "Heat half the oil in the frying pan over high heat and cook the peppers and onion until softened and blackened in spots. Tip onto a plate.", "timer": 360 },
+    { "title": "Sear the seitan", "text": "Add the rest of the oil and the seitan strips, sprinkle with chili powder, cumin and paprika and fry until crisp at the edges. Return the vegetables and add the lime juice.", "timer": 300 },
+    { "title": "Serve", "text": "Warm the tortillas and serve with the filling and salsa for everyone to build their own." }
+   ]
+  },
+  {
+   "slug": "chickpea-spinach-coconut-curry",
+   "name": "Chickpea and spinach coconut curry",
+   "style": "South Indian-style",
+   "description": "Chickpeas and spinach in a mild tomato and coconut sauce with golden turmeric, ginger and cumin. Ready in half an hour from cupboard ingredients.",
+   "servings": 4,
+   "prepMinutes": 10,
+   "cookMinutes": 25,
+   "cuisine": "indian",
+   "mealTypes": [
+    "dinner",
+    "lunch"
+   ],
+   "equipment": [
+    "large deep frying pan or pot",
+    "wooden spoon",
+    "pot for rice"
+   ],
+   "servingNote": "One serving is a quarter of the pan with a quarter of the rice.",
+   "ingredients": [
+    { "ingredient": "sunflower_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "onion", "quantity": 1, "unit": "large", "grams": 150, "prep": "chopped" },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "chopped" },
+    { "ingredient": "ginger", "quantity": 1, "unit": "tbsp", "grams": 8, "prep": "grated" },
+    { "ingredient": "cumin", "quantity": 1.5, "unit": "tsp", "grams": 3.7 },
+    { "ingredient": "ground_coriander", "quantity": 1.5, "unit": "tsp", "grams": 2.7 },
+    { "ingredient": "turmeric", "quantity": 1, "unit": "tsp", "grams": 3 },
+    { "ingredient": "cayenne", "quantity": 0.25, "unit": "tsp", "grams": 0.5 },
+    { "ingredient": "canned_tomatoes", "quantity": 1, "unit": "can", "grams": 400 },
+    { "ingredient": "chickpeas", "quantity": 2, "unit": "cans", "grams": 480, "prep": "drained" },
+    { "ingredient": "coconut_milk", "quantity": 1, "unit": "cup", "grams": 240 },
+    { "ingredient": "spinach", "quantity": 5, "unit": "cups", "grams": 150 },
+    { "ingredient": "salt", "quantity": 1, "unit": "tsp", "grams": 6 },
+    { "ingredient": "lime_juice", "quantity": 1, "unit": "tbsp", "grams": 15 },
+    { "ingredient": "basmati", "quantity": 1, "unit": "cup", "grams": 190, "prep": "rinsed" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Start the rice", "text": "Cook the rice in plenty of salted water until tender, then drain and keep covered.", "timer": 720 },
+    { "title": "Cook the onion", "text": "Warm the oil in the pan and cook the onion over medium heat until golden. Add the garlic and ginger for one minute.", "timer": 480 },
+    { "title": "Toast the spices", "text": "Stir in the cumin, coriander, turmeric and cayenne for 30 seconds, then add the tomatoes and cook until thick.", "timer": 300 },
+    { "title": "Simmer", "text": "Add the chickpeas, coconut milk and salt and simmer gently.", "timer": 480 },
+    { "title": "Finish", "text": "Stir in the spinach until it wilts, then add the lime juice. Taste for salt and serve with the rice." }
+   ]
+  },
+  {
+   "slug": "ethiopian-spiced-red-lentils",
+   "name": "Spiced red lentil stew (misir wot style)",
+   "style": "Ethiopian-style",
+   "description": "Red lentils cooked down with a lot of slowly softened onion, tomato paste and a home-mixed berbere-style spice blend of paprika, cayenne, fenugreek, ginger and cardamom. Rich, warming and deep red.",
+   "servings": 3,
+   "prepMinutes": 15,
+   "cookMinutes": 40,
+   "cuisine": "east_african",
+   "mealTypes": [
+    "dinner",
+    "lunch"
+   ],
+   "equipment": [
+    "heavy pot",
+    "wooden spoon",
+    "small bowl"
+   ],
+   "servingNote": "One serving is a third of the pot. Serve with flatbread or rice.",
+   "ingredients": [
+    { "ingredient": "onion", "quantity": 2, "unit": "large", "grams": 300, "prep": "very finely chopped" },
+    { "ingredient": "sunflower_oil", "quantity": 3, "unit": "tbsp", "grams": 42 },
+    { "ingredient": "garlic", "quantity": 4, "unit": "cloves", "grams": 12, "prep": "grated" },
+    { "ingredient": "ginger", "quantity": 1, "unit": "tbsp", "grams": 8, "prep": "grated" },
+    { "ingredient": "tomato_paste", "quantity": 3, "unit": "tbsp", "grams": 48 },
+    { "ingredient": "smoked_paprika", "quantity": 1, "unit": "tbsp", "grams": 7 },
+    { "ingredient": "cayenne", "quantity": 0.5, "unit": "tsp", "grams": 1 },
+    { "ingredient": "fenugreek", "quantity": 0.5, "unit": "tsp", "grams": 1.9, "prep": "ground" },
+    { "ingredient": "ground_ginger", "quantity": 0.5, "unit": "tsp", "grams": 0.9 },
+    { "ingredient": "cardamom", "quantity": 0.25, "unit": "tsp", "grams": 0.5 },
+    { "ingredient": "ground_coriander", "quantity": 0.5, "unit": "tsp", "grams": 0.9 },
+    { "ingredient": "cinnamon", "quantity": 1, "unit": "pinch", "grams": 0.3 },
+    { "ingredient": "red_lentils", "quantity": 1.25, "unit": "cups", "grams": 240, "prep": "rinsed" },
+    { "ingredient": "water", "quantity": 4, "unit": "cups", "grams": 950 },
+    { "ingredient": "salt", "quantity": 1, "unit": "tsp", "grams": 6 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Mix the spice blend", "text": "Stir the paprika, cayenne, fenugreek, ground ginger, cardamom, coriander and cinnamon together in the small bowl." },
+    { "title": "Cook the onions down", "text": "Put the onion in the dry pot over medium-low heat and stir until it gives off its water and starts to soften. Add the oil and keep cooking slowly, stirring often, until deep golden and jammy.", "timer": 900 },
+    { "title": "Build the base", "text": "Add the garlic, fresh ginger, tomato paste and the spice blend and stir for two minutes, until the oil turns red and the spices smell toasted.", "timer": 120 },
+    { "title": "Cook the lentils", "text": "Add the lentils, water and salt. Simmer, stirring often so nothing sticks, until the lentils have melted into a thick stew.", "timer": 1500 },
+    { "title": "Serve", "text": "Taste and add more salt or cayenne. Serve hot with flatbread or rice." }
+   ]
+  },
+  {
+   "slug": "ethiopian-greens-potatoes",
+   "name": "Garlicky greens and potatoes (gomen style)",
+   "style": "Ethiopian-style",
+   "description": "Kale braised slowly with onion, garlic, ginger and green chili, with soft potato cubes folded through. A gentle, savoury side or a light main.",
+   "servings": 3,
+   "prepMinutes": 15,
+   "cookMinutes": 30,
+   "cuisine": "east_african",
+   "mealTypes": [
+    "lunch",
+    "dinner"
+   ],
+   "equipment": [
+    "large pot with a lid",
+    "wooden spoon"
+   ],
+   "servingNote": "One serving is a third of the pot.",
+   "ingredients": [
+    { "ingredient": "kale", "quantity": 1, "unit": "large bunch", "grams": 400, "prep": "stems removed, leaves chopped" },
+    { "ingredient": "potato", "quantity": 2, "unit": "medium", "grams": 400, "prep": "peeled and cut into 2 cm cubes" },
+    { "ingredient": "onion", "quantity": 1, "unit": "medium", "grams": 110, "prep": "chopped" },
+    { "ingredient": "garlic", "quantity": 4, "unit": "cloves", "grams": 12, "prep": "chopped" },
+    { "ingredient": "ginger", "quantity": 1, "unit": "tbsp", "grams": 8, "prep": "grated" },
+    { "ingredient": "green_chili", "quantity": 1, "unit": "whole", "grams": 10, "prep": "slit lengthways" },
+    { "ingredient": "sunflower_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "turmeric", "quantity": 0.5, "unit": "tsp", "grams": 1.5 },
+    { "ingredient": "water", "quantity": 0.75, "unit": "cup", "grams": 180 },
+    { "ingredient": "salt", "quantity": 1, "unit": "tsp", "grams": 6 },
+    { "ingredient": "lemon_juice", "quantity": 1, "unit": "tbsp", "grams": 15 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Soften the aromatics", "text": "Warm the oil in the pot and cook the onion over medium heat until soft. Add the garlic, ginger, chili and turmeric and stir for a minute.", "timer": 420 },
+    { "title": "Add the potatoes", "text": "Add the potatoes, water and salt, cover and simmer until the potatoes are half cooked.", "timer": 480 },
+    { "title": "Braise the greens", "text": "Pile in the kale, cover and let it wilt, then stir and keep cooking gently, covered, until the kale is very tender and the potatoes are soft.", "timer": 900 },
+    { "title": "Finish", "text": "Uncover and let any extra liquid cook off. Stir in the lemon juice and taste for salt. Remove the chili before serving if you like less heat." }
+   ]
+  },
+  {
+   "slug": "egg-fried-rice-tofu-peas",
+   "name": "Egg fried rice with tofu and peas",
+   "style": "Chinese-style",
+   "description": "Day-old rice fried hot with scrambled egg, golden tofu, peas, carrot and scallions, seasoned simply with soy and sesame. The best use for leftover rice.",
+   "servings": 3,
+   "prepMinutes": 10,
+   "cookMinutes": 15,
+   "cuisine": "asian",
+   "mealTypes": [
+    "lunch",
+    "dinner"
+   ],
+   "equipment": [
+    "wok or large frying pan",
+    "spatula",
+    "small bowl"
+   ],
+   "servingNote": "One serving is a third of the wok.",
+   "ingredients": [
+    { "ingredient": "basmati", "quantity": 1, "unit": "cup dry", "grams": 190, "prep": "cooked the day before and chilled" },
+    { "ingredient": "eggs", "quantity": 3, "unit": "large", "grams": 150, "prep": "beaten", "group": "egg" },
+    { "ingredient": "silken_tofu", "quantity": 150, "unit": "g", "grams": 150, "group": "egg", "default": false, "prep": "crumbled with a pinch of turmeric", "note": "Crumbled silken tofu in place of the eggs makes the rice vegan." },
+    { "ingredient": "tofu", "quantity": 250, "unit": "g", "grams": 250, "prep": "cut into 1 cm cubes" },
+    { "ingredient": "peas", "quantity": 1, "unit": "cup", "grams": 140, "prep": "frozen" },
+    { "ingredient": "carrot", "quantity": 1, "unit": "medium", "grams": 60, "prep": "finely diced" },
+    { "ingredient": "scallions", "quantity": 4, "unit": "whole", "grams": 60, "prep": "sliced" },
+    { "ingredient": "garlic", "quantity": 2, "unit": "cloves", "grams": 6, "prep": "chopped" },
+    { "ingredient": "sunflower_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "soy_sauce", "quantity": 2.5, "unit": "tbsp", "grams": 40 },
+    { "ingredient": "sesame_oil", "quantity": 1, "unit": "tsp", "grams": 4.5 },
+    { "ingredient": "black_pepper", "quantity": 0.25, "unit": "tsp", "grams": 0.6 }
+   ],
+   "diet": {
+    "vegan": "incompatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Brown the tofu", "text": "Heat half the oil in the wok over high heat and fry the tofu cubes until golden. Lift out onto a plate.", "timer": 360 },
+    { "title": "Scramble the egg", "text": "Pour the beaten eggs into the hot wok, let them set for a few seconds, then break into soft pieces. Add them to the tofu.", "timer": 60 },
+    { "title": "Cook the vegetables", "text": "Add the rest of the oil, then the carrot, garlic and the white parts of the scallions. Stir-fry for a minute, then add the peas.", "timer": 120 },
+    { "title": "Fry the rice", "text": "Add the cold rice, breaking up clumps, and stir-fry until every grain is hot and starting to crisp.", "timer": 240 },
+    { "title": "Season and serve", "text": "Return the tofu and egg, add the soy sauce, sesame oil and pepper and toss well. Finish with the green scallion tops." }
+   ]
+  },
+  {
+   "slug": "spicy-tofu-mushroom-braise",
+   "name": "Spicy tofu and mushroom braise",
+   "style": "Sichuan-inspired",
+   "description": "Soft cubes of tofu and chopped shiitake simmered in a spicy, savoury miso and chili sauce with ginger and garlic, spooned over rice. Bold but quick.",
+   "servings": 3,
+   "prepMinutes": 10,
+   "cookMinutes": 20,
+   "cuisine": "asian",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "wok or deep frying pan",
+    "small bowl",
+    "pot for rice"
+   ],
+   "servingNote": "One serving is a third of the braise with a third of the rice.",
+   "ingredients": [
+    { "ingredient": "tofu", "quantity": 450, "unit": "g", "grams": 450, "prep": "cut into 2 cm cubes" },
+    { "ingredient": "shiitake", "quantity": 150, "unit": "g", "grams": 150, "prep": "stems removed, finely chopped" },
+    { "ingredient": "sunflower_oil", "quantity": 1.5, "unit": "tbsp", "grams": 21 },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "chopped" },
+    { "ingredient": "ginger", "quantity": 1, "unit": "tbsp", "grams": 8, "prep": "chopped" },
+    { "ingredient": "miso", "quantity": 1.5, "unit": "tbsp", "grams": 25, "prep": "plain miso (not dashi miso)" },
+    { "ingredient": "sriracha", "quantity": 1, "unit": "tbsp", "grams": 16 },
+    { "ingredient": "cayenne", "quantity": 0.25, "unit": "tsp", "grams": 0.5, "prep": "or chili flakes" },
+    { "ingredient": "soy_sauce", "quantity": 1, "unit": "tbsp", "grams": 16 },
+    { "ingredient": "water", "quantity": 0.75, "unit": "cup", "grams": 180 },
+    { "ingredient": "cornstarch", "quantity": 2, "unit": "tsp", "grams": 5, "prep": "mixed with 2 tbsp cold water" },
+    { "ingredient": "scallions", "quantity": 3, "unit": "whole", "grams": 45, "prep": "sliced" },
+    { "ingredient": "basmati", "quantity": 0.75, "unit": "cup", "grams": 150, "prep": "rinsed" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Cook the rice", "text": "Cook the rice in plenty of salted water until tender. Drain and keep covered.", "timer": 720 },
+    { "title": "Warm the tofu", "text": "Slide the tofu cubes into a pan of gently simmering salted water for two minutes to firm them up, then lift out carefully.", "timer": 120 },
+    { "title": "Fry the mushrooms", "text": "Heat the oil in the wok and fry the shiitake until browned and fragrant. Add the garlic and ginger for a minute.", "timer": 300 },
+    { "title": "Make the sauce", "text": "Stir in the miso, sriracha, cayenne, soy sauce and water and bring to a simmer." },
+    { "title": "Braise", "text": "Add the tofu and nudge it into the sauce without breaking it. Simmer gently, then stir the cornstarch mix and pour it in, shaking the pan until glossy and thick.", "timer": 300 },
+    { "title": "Serve", "text": "Scatter with scallions and serve over the rice." }
+   ]
+  },
+  {
+   "slug": "squash-chickpea-stew-couscous",
+   "name": "Squash and chickpea stew with couscous",
+   "style": "Moroccan-style",
+   "description": "Butternut squash, carrot and chickpeas simmered with cumin, cinnamon, ginger and a few raisins, served over fluffy couscous with fresh herbs. Sweet, warm and gently spiced.",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 35,
+   "cuisine": "middle_eastern",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "large pot with a lid",
+    "heatproof bowl",
+    "fork"
+   ],
+   "servingNote": "One serving is a quarter of the stew with a quarter of the couscous.",
+   "ingredients": [
+    { "ingredient": "olive_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "onion", "quantity": 1, "unit": "large", "grams": 150, "prep": "chopped" },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "chopped" },
+    { "ingredient": "cumin", "quantity": 2, "unit": "tsp", "grams": 5 },
+    { "ingredient": "cinnamon", "quantity": 1, "unit": "tsp", "grams": 2.6 },
+    { "ingredient": "ground_ginger", "quantity": 1, "unit": "tsp", "grams": 1.8 },
+    { "ingredient": "smoked_paprika", "quantity": 1, "unit": "tsp", "grams": 2.3 },
+    { "ingredient": "butternut", "quantity": 1, "unit": "small squash", "grams": 600, "prep": "peeled and cut into 3 cm chunks" },
+    { "ingredient": "carrot", "quantity": 2, "unit": "medium", "grams": 120, "prep": "thickly sliced" },
+    { "ingredient": "canned_tomatoes", "quantity": 1, "unit": "can", "grams": 400 },
+    { "ingredient": "chickpeas", "quantity": 2, "unit": "cans", "grams": 480, "prep": "drained" },
+    { "ingredient": "raisins", "quantity": 3, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "water", "quantity": 2, "unit": "cups", "grams": 480, "prep": "for the stew" },
+    { "ingredient": "salt", "quantity": 1.25, "unit": "tsp", "grams": 7.5 },
+    { "ingredient": "couscous", "quantity": 1.25, "unit": "cups", "grams": 220 },
+    { "ingredient": "parsley", "quantity": 0.5, "unit": "cup", "grams": 15, "prep": "chopped" },
+    { "ingredient": "lemon_juice", "quantity": 1, "unit": "tbsp", "grams": 15 }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Soften the onion", "text": "Warm the oil in the pot and cook the onion until soft and golden. Add the garlic and all the spices and stir for 30 seconds.", "timer": 480 },
+    { "title": "Simmer the vegetables", "text": "Add the squash, carrot, tomatoes, water and salt. Cover and simmer until the squash is almost tender.", "timer": 900 },
+    { "title": "Add chickpeas", "text": "Stir in the chickpeas and raisins and simmer uncovered until the squash is soft and the sauce has thickened.", "timer": 600 },
+    { "title": "Make the couscous", "text": "Put the couscous in the heatproof bowl with a pinch of salt and pour over 1.5 cups of boiling water. Cover for five minutes, then fluff with a fork.", "timer": 300 },
+    { "title": "Serve", "text": "Stir the lemon juice into the stew. Serve over the couscous with parsley scattered over." }
+   ]
+  },
+  {
+   "slug": "baked-chickpea-patties-tahini",
+   "name": "Baked herb chickpea patties with tahini sauce",
+   "style": "Middle Eastern-style",
+   "description": "Falafel-inspired patties of chickpeas, parsley, coriander and cumin, bound with chickpea flour and baked rather than fried. Served with a lemony tahini sauce and salad.",
+   "servings": 4,
+   "prepMinutes": 20,
+   "cookMinutes": 25,
+   "cuisine": "middle_eastern",
+   "mealTypes": [
+    "lunch",
+    "dinner"
+   ],
+   "equipment": [
+    "oven",
+    "food processor",
+    "baking tray",
+    "baking paper",
+    "small bowl"
+   ],
+   "servingNote": "One serving is three patties with sauce and salad.",
+   "ingredients": [
+    { "ingredient": "chickpeas", "quantity": 2, "unit": "cans", "grams": 480, "prep": "drained and patted very dry" },
+    { "ingredient": "chickpea_flour", "quantity": 0.5, "unit": "cup", "grams": 60 },
+    { "ingredient": "onion", "quantity": 0.5, "unit": "medium", "grams": 55, "prep": "roughly chopped" },
+    { "ingredient": "garlic", "quantity": 2, "unit": "cloves", "grams": 6 },
+    { "ingredient": "parsley", "quantity": 1, "unit": "cup", "grams": 30 },
+    { "ingredient": "coriander_leaf", "quantity": 0.5, "unit": "cup", "grams": 10 },
+    { "ingredient": "cumin", "quantity": 2, "unit": "tsp", "grams": 5 },
+    { "ingredient": "ground_coriander", "quantity": 1, "unit": "tsp", "grams": 1.8 },
+    { "ingredient": "baking_powder", "quantity": 0.5, "unit": "tsp", "grams": 2.3 },
+    { "ingredient": "salt", "quantity": 1, "unit": "tsp", "grams": 6 },
+    { "ingredient": "olive_oil", "quantity": 3, "unit": "tbsp", "grams": 42 },
+    { "ingredient": "tahini", "quantity": 4, "unit": "tbsp", "grams": 60 },
+    { "ingredient": "lemon_juice", "quantity": 3, "unit": "tbsp", "grams": 45 },
+    { "ingredient": "tomato", "quantity": 2, "unit": "medium", "grams": 240, "prep": "diced, for the salad" },
+    { "ingredient": "cucumber", "quantity": 0.5, "unit": "whole", "grams": 150, "prep": "diced, for the salad" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Heat the oven", "text": "Heat the oven to 200 °C (400 °F). Line the tray with baking paper and brush it with a tablespoon of the oil." },
+    { "title": "Blend the mixture", "text": "Pulse the onion, garlic, parsley and coriander leaf until finely chopped. Add the chickpeas, chickpea flour, cumin, ground coriander, baking powder and salt and pulse to a coarse paste that holds together when pressed." },
+    { "title": "Shape", "text": "Shape into 12 small flat patties and set them on the tray. Brush the tops with the rest of the oil." },
+    { "title": "Bake", "text": "Bake, turning once halfway, until crisp and golden on both sides.", "timer": 1500 },
+    { "title": "Make the sauce", "text": "Whisk the tahini with the lemon juice, a pinch of salt and 3 to 4 tablespoons of cold water until smooth and pourable." },
+    { "title": "Serve", "text": "Serve the patties with the tomato and cucumber salad and plenty of tahini sauce." }
+   ]
+  },
+  {
+   "slug": "tofu-pea-curry",
+   "name": "Tofu and pea curry (matar style)",
+   "style": "North Indian-style",
+   "description": "Golden tofu and sweet peas in a gently spiced onion, ginger and tomato gravy. A dairy-free take on the classic paneer and pea curry; paneer works too.",
+   "servings": 3,
+   "prepMinutes": 15,
+   "cookMinutes": 25,
+   "cuisine": "indian",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "large frying pan",
+    "wooden spoon",
+    "blender (optional)"
+   ],
+   "servingNote": "One serving is a third of the pan. Serve with rice or flatbread.",
+   "ingredients": [
+    { "ingredient": "tofu", "quantity": 400, "unit": "g", "grams": 400, "prep": "pressed and cut into 2 cm cubes", "group": "protein" },
+    { "ingredient": "paneer", "quantity": 300, "unit": "g", "grams": 300, "prep": "cut into 2 cm cubes", "group": "protein", "default": false, "note": "Paneer in place of tofu. Its protein is not known here (no USDA match), so the recipe total becomes not known." },
+    { "ingredient": "peas", "quantity": 1.5, "unit": "cups", "grams": 210, "prep": "frozen" },
+    { "ingredient": "sunflower_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "onion", "quantity": 1, "unit": "large", "grams": 150, "prep": "finely chopped" },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "grated" },
+    { "ingredient": "ginger", "quantity": 1, "unit": "tbsp", "grams": 8, "prep": "grated" },
+    { "ingredient": "green_chili", "quantity": 1, "unit": "whole", "grams": 5, "prep": "chopped" },
+    { "ingredient": "cumin", "quantity": 1, "unit": "tsp", "grams": 2.5 },
+    { "ingredient": "ground_coriander", "quantity": 1.5, "unit": "tsp", "grams": 2.7 },
+    { "ingredient": "turmeric", "quantity": 0.5, "unit": "tsp", "grams": 1.5 },
+    { "ingredient": "canned_tomatoes", "quantity": 1, "unit": "can", "grams": 400 },
+    { "ingredient": "water", "quantity": 0.5, "unit": "cup", "grams": 120 },
+    { "ingredient": "salt", "quantity": 1, "unit": "tsp", "grams": 6 },
+    { "ingredient": "coriander_leaf", "quantity": 0.25, "unit": "cup", "grams": 5, "prep": "chopped" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Brown the tofu", "text": "Heat half the oil in the pan and fry the tofu cubes until golden on a few sides. Lift out.", "timer": 420 },
+    { "title": "Cook the onion", "text": "Add the rest of the oil and cook the onion until golden. Stir in the garlic, ginger and chili for one minute.", "timer": 540 },
+    { "title": "Make the gravy", "text": "Add the cumin, coriander and turmeric, stir for 30 seconds, then add the tomatoes and salt. Cook until thick and the oil shows at the edges. Blend it smooth if you like.", "timer": 420 },
+    { "title": "Simmer", "text": "Add the water, peas and tofu and simmer until the peas are tender and the sauce coats the tofu.", "timer": 300 },
+    { "title": "Serve", "text": "Scatter with coriander and serve hot." }
+   ]
+  },
+  {
+   "slug": "stuffed-peppers-rice-beans-cheddar",
+   "name": "Stuffed peppers with rice, black beans and cheddar",
+   "style": "American-style",
+   "description": "Bell peppers baked with a filling of rice, black beans, corn, tomato and chili, finished with melted cheddar. A family-style tray bake.",
+   "servings": 4,
+   "prepMinutes": 20,
+   "cookMinutes": 40,
+   "cuisine": "american",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "oven",
+    "pot for rice",
+    "frying pan",
+    "baking dish"
+   ],
+   "servingNote": "One serving is one stuffed pepper.",
+   "ingredients": [
+    { "ingredient": "red_pepper", "quantity": 4, "unit": "large", "grams": 640, "prep": "tops cut off and seeds removed" },
+    { "ingredient": "basmati", "quantity": 0.5, "unit": "cup", "grams": 95, "prep": "rinsed" },
+    { "ingredient": "black_beans", "quantity": 1.5, "unit": "cups", "grams": 255, "prep": "rinsed and drained" },
+    { "ingredient": "corn", "quantity": 0.75, "unit": "cup", "grams": 110 },
+    { "ingredient": "onion", "quantity": 1, "unit": "medium", "grams": 110, "prep": "chopped" },
+    { "ingredient": "garlic", "quantity": 2, "unit": "cloves", "grams": 6, "prep": "chopped" },
+    { "ingredient": "olive_oil", "quantity": 1, "unit": "tbsp", "grams": 14 },
+    { "ingredient": "chili_powder", "quantity": 2, "unit": "tsp", "grams": 5.4 },
+    { "ingredient": "cumin", "quantity": 1, "unit": "tsp", "grams": 2.5 },
+    { "ingredient": "canned_tomatoes", "quantity": 0.5, "unit": "can", "grams": 200 },
+    { "ingredient": "salt", "quantity": 0.75, "unit": "tsp", "grams": 4.5 },
+    { "ingredient": "cheddar", "quantity": 1, "unit": "cup grated", "grams": 90, "group": "cheese" },
+    { "ingredient": "avocado", "quantity": 1, "unit": "medium", "grams": 150, "group": "cheese", "default": false, "prep": "sliced, added after baking", "note": "Sliced avocado in place of the cheddar makes the peppers vegan." }
+   ],
+   "diet": {
+    "vegan": "incompatible",
+    "vegetarian": "conditional",
+    "modifications": {
+     "vegetarian": "Cheddar may be made with animal rennet: choose one the label says uses microbial or vegetable rennet."
+    }
+   },
+   "steps": [
+    { "title": "Cook the rice", "text": "Cook the rice in plenty of salted water until just tender, then drain.", "timer": 720 },
+    { "title": "Make the filling", "text": "Heat the oven to 190 °C (375 °F). Cook the onion in the oil until soft, add the garlic, chili powder and cumin for a minute, then stir in the tomatoes, beans, corn, rice and salt.", "timer": 420 },
+    { "title": "Fill", "text": "Stand the peppers upright in the baking dish and pack them with the filling. Pour a few tablespoons of water into the dish." },
+    { "title": "Bake", "text": "Cover with foil and bake until the peppers are tender.", "timer": 1500 },
+    { "title": "Add the cheese", "text": "Uncover, top each pepper with cheddar and bake until melted and bubbling.", "timer": 300 }
+   ]
+  },
+  {
+   "slug": "whole-wheat-pasta-mushroom-ricotta",
+   "name": "Whole-wheat pasta with mushrooms, spinach and ricotta",
+   "style": "Italian-style",
+   "description": "Whole-wheat pasta tossed with garlicky browned mushrooms, wilted spinach and spoonfuls of creamy ricotta loosened with pasta water and lemon. A weeknight dinner in 25 minutes.",
+   "servings": 3,
+   "prepMinutes": 10,
+   "cookMinutes": 15,
+   "cuisine": "italian",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "large pot",
+    "large frying pan",
+    "colander"
+   ],
+   "servingNote": "One serving is a third of the pasta.",
+   "ingredients": [
+    { "ingredient": "ww_pasta", "quantity": 250, "unit": "g", "grams": 250 },
+    { "ingredient": "mushrooms", "quantity": 350, "unit": "g", "grams": 350, "prep": "sliced" },
+    { "ingredient": "olive_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "sliced" },
+    { "ingredient": "spinach", "quantity": 4, "unit": "cups", "grams": 120 },
+    { "ingredient": "ricotta", "quantity": 1, "unit": "cup", "grams": 250, "group": "cheese" },
+    { "ingredient": "white_beans", "quantity": 1, "unit": "can", "grams": 240, "group": "cheese", "default": false, "prep": "blended with 3 tbsp pasta water", "note": "White beans blended smooth in place of the ricotta make the pasta vegan." },
+    { "ingredient": "lemon_juice", "quantity": 1, "unit": "tbsp", "grams": 15 },
+    { "ingredient": "black_pepper", "quantity": 0.5, "unit": "tsp", "grams": 1.2 },
+    { "ingredient": "salt", "quantity": 0.75, "unit": "tsp", "grams": 4.5 }
+   ],
+   "diet": {
+    "vegan": "incompatible",
+    "vegetarian": "conditional",
+    "modifications": {
+     "vegetarian": "Some ricotta is made with rennet: choose one the label says uses no animal rennet."
+    }
+   },
+   "steps": [
+    { "title": "Cook the pasta", "text": "Cook the pasta in a large pot of salted boiling water until just tender. Keep a cup of the cooking water before draining.", "timer": 660 },
+    { "title": "Brown the mushrooms", "text": "Meanwhile heat the oil in the frying pan over high heat. Add the mushrooms in one layer and leave them until browned underneath, then stir and cook until golden all over.", "timer": 420 },
+    { "title": "Add garlic and spinach", "text": "Add the garlic for one minute, then the spinach, stirring until it wilts. Season with salt and pepper.", "timer": 120 },
+    { "title": "Toss", "text": "Add the drained pasta, the ricotta, lemon juice and a splash of cooking water. Toss over low heat until creamy, adding more water as needed." },
+    { "title": "Serve", "text": "Serve straight away with more black pepper." }
+   ]
+  },
+  {
+   "slug": "coconut-peanut-curry-tofu-green-beans",
+   "name": "Coconut peanut curry with tofu and green beans",
+   "style": "Thai-inspired",
+   "description": "Crisp-edged tofu and green beans in a creamy coconut and peanut sauce with ginger, lime and a little chili, served over rice. Made without curry paste, so nothing fishy hides in it.",
+   "servings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 25,
+   "cuisine": "asian",
+   "mealTypes": [
+    "dinner"
+   ],
+   "equipment": [
+    "large frying pan or wok",
+    "pot for rice",
+    "small bowl"
+   ],
+   "servingNote": "One serving is a quarter of the curry with a quarter of the rice.",
+   "ingredients": [
+    { "ingredient": "tofu", "quantity": 450, "unit": "g", "grams": 450, "prep": "pressed and cut into cubes" },
+    { "ingredient": "green_beans", "quantity": 250, "unit": "g", "grams": 250, "prep": "trimmed and halved" },
+    { "ingredient": "red_pepper", "quantity": 1, "unit": "medium", "grams": 120, "prep": "sliced" },
+    { "ingredient": "sunflower_oil", "quantity": 1.5, "unit": "tbsp", "grams": 21 },
+    { "ingredient": "garlic", "quantity": 3, "unit": "cloves", "grams": 9, "prep": "grated" },
+    { "ingredient": "ginger", "quantity": 1, "unit": "tbsp", "grams": 8, "prep": "grated" },
+    { "ingredient": "turmeric", "quantity": 0.5, "unit": "tsp", "grams": 1.5 },
+    { "ingredient": "ground_coriander", "quantity": 1, "unit": "tsp", "grams": 1.8 },
+    { "ingredient": "cayenne", "quantity": 0.25, "unit": "tsp", "grams": 0.5 },
+    { "ingredient": "coconut_milk", "quantity": 1, "unit": "can", "grams": 400 },
+    { "ingredient": "peanut_butter", "quantity": 3, "unit": "tbsp", "grams": 48 },
+    { "ingredient": "soy_sauce", "quantity": 2, "unit": "tbsp", "grams": 32 },
+    { "ingredient": "lime_juice", "quantity": 2, "unit": "tbsp", "grams": 30 },
+    { "ingredient": "maple", "quantity": 1, "unit": "tsp", "grams": 7 },
+    { "ingredient": "basil", "quantity": 1, "unit": "handful", "grams": 8, "prep": "leaves torn" },
+    { "ingredient": "basmati", "quantity": 1, "unit": "cup", "grams": 190, "prep": "rinsed" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Cook the rice", "text": "Cook the rice in plenty of salted water until tender, then drain and keep covered.", "timer": 720 },
+    { "title": "Crisp the tofu", "text": "Heat the oil in the pan and fry the tofu until golden on several sides. Lift out.", "timer": 480 },
+    { "title": "Make the sauce", "text": "Lower the heat, add the garlic, ginger, turmeric, coriander and cayenne and stir for 30 seconds. Whisk in the coconut milk, peanut butter and soy sauce until smooth." },
+    { "title": "Simmer the vegetables", "text": "Add the green beans and pepper and simmer until the beans are tender but still bright.", "timer": 360 },
+    { "title": "Finish", "text": "Return the tofu, stir in the lime juice and maple syrup and heat through. Taste, scatter with basil and serve over the rice." }
+   ]
+  },
+  {
+   "slug": "three-bean-lentil-chili",
+   "name": "Three-bean and lentil chili",
+   "style": "American-style",
+   "description": "A thick, smoky chili of kidney, black and pinto beans with lentils, peppers and tomatoes. Cook a big pot: it tastes even better the next day.",
+   "servings": 5,
+   "prepMinutes": 15,
+   "cookMinutes": 45,
+   "cuisine": "american",
+   "mealTypes": [
+    "dinner",
+    "lunch"
+   ],
+   "equipment": [
+    "large heavy pot",
+    "wooden spoon"
+   ],
+   "servingNote": "One serving is one large bowl, a fifth of the pot.",
+   "ingredients": [
+    { "ingredient": "olive_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "onion", "quantity": 1, "unit": "large", "grams": 150, "prep": "chopped" },
+    { "ingredient": "red_pepper", "quantity": 1, "unit": "medium", "grams": 120, "prep": "chopped" },
+    { "ingredient": "green_pepper", "quantity": 1, "unit": "medium", "grams": 120, "prep": "chopped" },
+    { "ingredient": "garlic", "quantity": 4, "unit": "cloves", "grams": 12, "prep": "chopped" },
+    { "ingredient": "chili_powder", "quantity": 2, "unit": "tbsp", "grams": 16 },
+    { "ingredient": "cumin", "quantity": 2, "unit": "tsp", "grams": 5 },
+    { "ingredient": "smoked_paprika", "quantity": 1, "unit": "tsp", "grams": 2.3 },
+    { "ingredient": "oregano", "quantity": 1, "unit": "tsp", "grams": 1 },
+    { "ingredient": "tomato_paste", "quantity": 2, "unit": "tbsp", "grams": 32 },
+    { "ingredient": "canned_tomatoes", "quantity": 2, "unit": "cans", "grams": 800 },
+    { "ingredient": "green_lentils", "quantity": 0.75, "unit": "cup", "grams": 150, "prep": "rinsed" },
+    { "ingredient": "water", "quantity": 3, "unit": "cups", "grams": 720 },
+    { "ingredient": "kidney_beans", "quantity": 1, "unit": "can", "grams": 250, "prep": "drained" },
+    { "ingredient": "black_beans", "quantity": 1.5, "unit": "cups", "grams": 255, "prep": "drained" },
+    { "ingredient": "pinto_beans", "quantity": 1, "unit": "can", "grams": 250, "prep": "drained" },
+    { "ingredient": "salt", "quantity": 1.5, "unit": "tsp", "grams": 9 },
+    { "ingredient": "cider_vinegar", "quantity": 1, "unit": "tbsp", "grams": 15 },
+    { "ingredient": "scallions", "quantity": 3, "unit": "whole", "grams": 45, "prep": "sliced, to serve" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Soften the vegetables", "text": "Warm the oil in the pot and cook the onion and peppers over medium heat until soft. Add the garlic for a minute.", "timer": 540 },
+    { "title": "Toast the spices", "text": "Stir in the chili powder, cumin, paprika, oregano and tomato paste and cook for a minute until dark and fragrant.", "timer": 60 },
+    { "title": "Simmer the lentils", "text": "Add the tomatoes, lentils, water and salt. Bring to the boil, then simmer partly covered, stirring now and then.", "timer": 1500 },
+    { "title": "Add the beans", "text": "Add all three beans and simmer until the lentils are soft and the chili is thick.", "timer": 900 },
+    { "title": "Serve", "text": "Stir in the vinegar, taste for salt and heat, and serve topped with scallions." }
+   ]
+  },
+  {
+   "slug": "roasted-pepper-white-bean-dip",
+   "name": "Roasted red pepper and white bean dip",
+   "style": "Mediterranean-style",
+   "description": "A bright orange dip of oven-roasted red peppers blended with white beans, garlic, lemon and smoked paprika. Great with raw vegetables or toasted pita.",
+   "servings": 6,
+   "prepMinutes": 10,
+   "cookMinutes": 25,
+   "cuisine": "mediterranean",
+   "mealTypes": [
+    "snack"
+   ],
+   "equipment": [
+    "oven",
+    "baking tray",
+    "food processor or blender"
+   ],
+   "servingNote": "One serving is about a third of a cup of dip.",
+   "ingredients": [
+    { "ingredient": "red_pepper", "quantity": 2, "unit": "large", "grams": 320, "prep": "halved and seeded" },
+    { "ingredient": "white_beans", "quantity": 1, "unit": "can", "grams": 240, "prep": "drained" },
+    { "ingredient": "garlic", "quantity": 1, "unit": "clove", "grams": 3 },
+    { "ingredient": "lemon_juice", "quantity": 1.5, "unit": "tbsp", "grams": 22 },
+    { "ingredient": "olive_oil", "quantity": 2, "unit": "tbsp", "grams": 28 },
+    { "ingredient": "smoked_paprika", "quantity": 1, "unit": "tsp", "grams": 2.3 },
+    { "ingredient": "salt", "quantity": 0.5, "unit": "tsp", "grams": 3 },
+    { "ingredient": "carrot", "quantity": 3, "unit": "medium", "grams": 180, "prep": "cut into sticks, to serve" },
+    { "ingredient": "cucumber", "quantity": 1, "unit": "whole", "grams": 300, "prep": "cut into sticks, to serve" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Roast the peppers", "text": "Heat the oven to 230 °C (450 °F). Roast the pepper halves skin side up until the skins blister and blacken.", "timer": 1500 },
+    { "title": "Steam and peel", "text": "Put the hot peppers in a bowl, cover with a plate for 10 minutes, then slip off the skins.", "timer": 600 },
+    { "title": "Blend", "text": "Blend the peppers with the beans, garlic, lemon juice, olive oil, paprika and salt until smooth." },
+    { "title": "Serve", "text": "Taste and adjust, then serve with the carrot and cucumber sticks. Keeps for four days in the fridge." }
+   ]
+  },
+  {
+   "slug": "peanut-butter-oat-energy-bites",
+   "name": "Peanut butter cocoa oat bites",
+   "style": "American-style",
+   "description": "No-bake bites of oats, peanut butter, dates, flaxseed and cocoa rolled into balls. A handy snack to keep in the fridge.",
+   "servings": 6,
+   "prepMinutes": 15,
+   "cookMinutes": 0,
+   "cuisine": "american",
+   "mealTypes": [
+    "snack"
+   ],
+   "equipment": [
+    "food processor",
+    "baking tray or plate",
+    "airtight container"
+   ],
+   "servingNote": "Makes 12 bites. One serving is two bites.",
+   "ingredients": [
+    { "ingredient": "oats", "quantity": 1, "unit": "cup", "grams": 90 },
+    { "ingredient": "dates", "quantity": 6, "unit": "medjool", "grams": 120, "prep": "pitted" },
+    { "ingredient": "peanut_butter", "quantity": 0.33, "unit": "cup", "grams": 85 },
+    { "ingredient": "flaxseed", "quantity": 2, "unit": "tbsp", "grams": 14 },
+    { "ingredient": "cocoa", "quantity": 1.5, "unit": "tbsp", "grams": 8 },
+    { "ingredient": "vanilla", "quantity": 0.5, "unit": "tsp", "grams": 2 },
+    { "ingredient": "salt", "quantity": 1, "unit": "pinch", "grams": 0.5 },
+    { "ingredient": "water", "quantity": 1, "unit": "tbsp", "grams": 15, "prep": "only if needed" }
+   ],
+   "diet": {
+    "vegan": "compatible",
+    "vegetarian": "compatible"
+   },
+   "steps": [
+    { "title": "Blend the dates", "text": "Pulse the dates in the food processor until they form a sticky paste." },
+    { "title": "Mix", "text": "Add the oats, peanut butter, flaxseed, cocoa, vanilla and salt and pulse until the mixture clumps together. Add the water only if it seems dry." },
+    { "title": "Roll", "text": "Roll into 12 walnut-sized balls with damp hands and set them on the tray." },
+    { "title": "Chill", "text": "Chill for 30 minutes to firm up, then store in the container in the fridge for up to a week.", "timer": 1800 }
+   ]
+  }
+ ]
+}

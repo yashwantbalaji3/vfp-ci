@@ -1,0 +1,119 @@
+name: CI
+
+# Runs every check against a throwaway local Supabase stack inside the CI runner.
+# No hosted database, no deployment, no secrets required.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+# A push to main repeats the pull request's checks. Owner approval (19 Nov 2026, Option A; docs/60): that repeat is
+# skipped ONLY when scripts/ci/main-skip-gate.sh proves from GitHub's records that the tree on main is identical to
+# the PR head whose full checks passed. Otherwise, or on any doubt or error, the full checks run as before. Pull
+# requests always run the full checks; the gate does not run on them.
+
+# Where the checks run (owner decision 21 Nov 2026 00:37 UTC; docs/65). The full checks run on the clean public CI
+# copy (yashwantbalaji3/vfp-ci), where standard runners are free, on a reproducible snapshot of the exact private
+# commit. In this private repository every job is skipped (skipped jobs use no minutes) unless the repository
+# variable PRIVATE_CI is set to "on" (Settings > Secrets and variables > Actions > Variables), for example after
+# the monthly allowance resets. Nothing about what the checks do changes; only where they run.
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  main-skip-gate:
+    if: ${{ github.event_name == 'push' && (!github.event.repository.private || vars.PRIVATE_CI == 'on') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: read
+      actions: read
+    outputs:
+      skip: ${{ steps.gate.outputs.skip }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts/ci
+      - id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/ci/main-skip-gate.sh "${{ github.repository }}" "${{ github.sha }}"
+
+  checks:
+    needs: main-skip-gate
+    # Always on a pull request. On main, unless the gate proved the run is an exact repeat; if the gate fails or is
+    # cancelled, its output is empty and the full checks run.
+    if: ${{ !cancelled() && (!github.event.repository.private || vars.PRIVATE_CI == 'on') && (github.event_name != 'push' || needs.main-skip-gate.outputs.skip != 'true') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - name: Start local Supabase and rebuild the database from migrations
+        run: |
+          pnpm exec supabase start
+          pnpm exec supabase db reset --local
+          node scripts/write-local-env.mjs
+      - run: pnpm test:db
+      - run: pnpm test:rls
+      - run: pnpm build
+      # The test browser is cached between runs, keyed on the exact Playwright version in the lockfile.
+      # On a miss the browser is downloaded as before; on a hit the system libraries are added only if the browser cannot start.
+      - name: Read the Playwright version
+        id: pw
+        run: echo "version=$(node -p "require('@playwright/test/package.json').version")" >> "$GITHUB_OUTPUT"
+      - name: Cache the Playwright browser
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.pw.outputs.version }}-chromium
+      - name: Install the Playwright browser (cache miss)
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: pnpm exec playwright install --with-deps chromium
+      # The runner image usually has the browser's system libraries already. Installing them took about 17 s even on
+      # a cache hit, which cancelled the cache's saving, so they are installed only when the cached browser cannot start.
+      - name: Install the browser's system libraries only if it cannot start (cache hit)
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: |
+          if node -e "require('@playwright/test').chromium.launch().then(b => b.close()).catch(e => { console.error(e.message); process.exit(1); })"; then
+            echo "The cached browser starts; no system libraries needed."
+          else
+            pnpm exec playwright install-deps chromium
+          fi
+      - run: pnpm test:e2e
+        env:
+          CI: "true"
+
+  # When the full repeat is skipped, a light check still runs on main itself: a clean install from the lockfile,
+  # lint, typecheck and the unit tests, so a broken main can't go unnoticed.
+  main-smoke:
+    needs: main-skip-gate
+    if: ${{ github.event_name == 'push' && (!github.event.repository.private || vars.PRIVATE_CI == 'on') && needs.main-skip-gate.outputs.skip == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test

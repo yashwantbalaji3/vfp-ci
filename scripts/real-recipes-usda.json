@@ -1,0 +1,352 @@
+{
+ "00000000-0000-4000-8000-000000420001": {
+  "name": "Extra-firm tofu",
+  "fdcId": 172475,
+  "release": "2018-04",
+  "usda": "Tofu, raw, firm, prepared with calcium sulfate"
+ },
+ "00000000-0000-4000-8000-000000420002": {
+  "name": "Onion",
+  "fdcId": 170000,
+  "release": "2018-04",
+  "usda": "Onions, raw"
+ },
+ "00000000-0000-4000-8000-000000420003": {
+  "name": "Tomato",
+  "fdcId": 170457,
+  "release": "2018-04",
+  "usda": "Tomatoes, red, ripe, raw, year round average"
+ },
+ "00000000-0000-4000-8000-000000420004": {
+  "name": "Spinach",
+  "fdcId": 168462,
+  "release": "2018-04",
+  "usda": "Spinach, raw"
+ },
+ "00000000-0000-4000-8000-000000420005": {
+  "name": "Sunflower oil",
+  "fdcId": 171025,
+  "release": "2018-04",
+  "usda": "Oil, sunflower, linoleic (approx. 65%)"
+ },
+ "00000000-0000-4000-8000-000000420006": {
+  "name": "Olive oil",
+  "fdcId": 171413,
+  "release": "2018-04",
+  "usda": "Oil, olive, salad or cooking"
+ },
+ "00000000-0000-4000-8000-000000420007": {
+  "name": "Garlic",
+  "fdcId": 169230,
+  "release": "2018-04",
+  "usda": "Garlic, raw"
+ },
+ "00000000-0000-4000-8000-000000420008": {
+  "name": "Fresh ginger",
+  "fdcId": 169231,
+  "release": "2018-04",
+  "usda": "Ginger root, raw"
+ },
+ "00000000-0000-4000-8000-000000420009": {
+  "name": "Ground turmeric",
+  "fdcId": 172231,
+  "release": "2018-04",
+  "usda": "Spices, turmeric, ground"
+ },
+ "00000000-0000-4000-8000-000000420010": {
+  "name": "Ground cumin",
+  "fdcId": 170923,
+  "release": "2018-04",
+  "usda": "Spices, cumin seed"
+ },
+ "00000000-0000-4000-8000-000000420011": {
+  "name": "Garam masala",
+  "fdcId": null,
+  "release": null,
+  "usda": null,
+  "note": "USDA has no garam masala; its nutrition stays unknown (a teaspoon or two)."
+ },
+ "00000000-0000-4000-8000-000000420012": {
+  "name": "Salt",
+  "fdcId": 173468,
+  "release": "2018-04",
+  "usda": "Salt, table"
+ },
+ "00000000-0000-4000-8000-000000420013": {
+  "name": "Rolled oats",
+  "fdcId": 2346396,
+  "release": "2026-10-29",
+  "usda": "Oats, whole grain, rolled, old fashioned"
+ },
+ "00000000-0000-4000-8000-000000420014": {
+  "name": "Unsweetened soy milk",
+  "fdcId": 175215,
+  "release": "2018-04",
+  "usda": "Soymilk (all flavors), unsweetened, with added calcium, vitamins A and D"
+ },
+ "00000000-0000-4000-8000-000000420015": {
+  "name": "Whole milk",
+  "fdcId": 171265,
+  "release": "2018-04",
+  "usda": "Milk, whole, 3.25% milkfat, with added vitamin D"
+ },
+ "00000000-0000-4000-8000-000000420016": {
+  "name": "Peanut butter",
+  "fdcId": 172470,
+  "release": "2018-04",
+  "usda": "Peanut butter, smooth style, without salt"
+ },
+ "00000000-0000-4000-8000-000000420017": {
+  "name": "Chia seeds",
+  "fdcId": 170554,
+  "release": "2018-04",
+  "usda": "Seeds, chia seeds, dried"
+ },
+ "00000000-0000-4000-8000-000000420018": {
+  "name": "Maple syrup",
+  "fdcId": 169661,
+  "release": "2018-04",
+  "usda": "Syrups, maple"
+ },
+ "00000000-0000-4000-8000-000000420019": {
+  "name": "Honey",
+  "fdcId": 169640,
+  "release": "2018-04",
+  "usda": "Honey"
+ },
+ "00000000-0000-4000-8000-000000420020": {
+  "name": "Banana",
+  "fdcId": 173944,
+  "release": "2018-04",
+  "usda": "Bananas, raw"
+ },
+ "00000000-0000-4000-8000-000000420021": {
+  "name": "Plain Greek yogurt",
+  "fdcId": 330137,
+  "release": "2026-10-29",
+  "usda": "Yogurt, Greek, plain, nonfat"
+ },
+ "00000000-0000-4000-8000-000000420022": {
+  "name": "Plain soy yogurt",
+  "fdcId": 167722,
+  "release": "2018-04",
+  "usda": "Tofu yogurt"
+ },
+ "00000000-0000-4000-8000-000000420023": {
+  "name": "Walnuts",
+  "fdcId": 170187,
+  "release": "2018-04",
+  "usda": "Nuts, walnuts, english"
+ },
+ "00000000-0000-4000-8000-000000420024": {
+  "name": "Blueberries",
+  "fdcId": 171711,
+  "release": "2018-04",
+  "usda": "Blueberries, raw"
+ },
+ "00000000-0000-4000-8000-000000420025": {
+  "name": "Eggs",
+  "fdcId": 171287,
+  "release": "2018-04",
+  "usda": "Egg, whole, raw, fresh"
+ },
+ "00000000-0000-4000-8000-000000420026": {
+  "name": "Canned white beans",
+  "fdcId": 175204,
+  "release": "2018-04",
+  "usda": "Beans, white, mature seeds, canned"
+ },
+ "00000000-0000-4000-8000-000000420027": {
+  "name": "Red bell pepper",
+  "fdcId": 170108,
+  "release": "2018-04",
+  "usda": "Peppers, sweet, red, raw"
+ },
+ "00000000-0000-4000-8000-000000420028": {
+  "name": "Canned chopped tomatoes",
+  "fdcId": 170051,
+  "release": "2018-04",
+  "usda": "Tomatoes, red, ripe, canned, packed in tomato juice"
+ },
+ "00000000-0000-4000-8000-000000420029": {
+  "name": "Smoked paprika",
+  "fdcId": 171329,
+  "release": "2018-04",
+  "usda": "Spices, paprika"
+ },
+ "00000000-0000-4000-8000-000000420030": {
+  "name": "Canned chickpeas, drained",
+  "fdcId": 173800,
+  "release": "2018-04",
+  "usda": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, drained solids"
+ },
+ "00000000-0000-4000-8000-000000420031": {
+  "name": "Paneer",
+  "fdcId": null,
+  "release": null,
+  "usda": null,
+  "note": "USDA has no paneer; its nutrition stays unknown, so a recipe using it shows protein as not known."
+ },
+ "00000000-0000-4000-8000-000000420032": {
+  "name": "Single cream (half and half)",
+  "fdcId": 171255,
+  "release": "2018-04",
+  "usda": "Cream, fluid, half and half"
+ },
+ "00000000-0000-4000-8000-000000420033": {
+  "name": "Canned coconut milk",
+  "fdcId": 170173,
+  "release": "2018-04",
+  "usda": "Nuts, coconut milk, canned"
+ },
+ "00000000-0000-4000-8000-000000420034": {
+  "name": "Split red lentils",
+  "fdcId": 174284,
+  "release": "2018-04",
+  "usda": "Lentils, pink or red, raw"
+ },
+ "00000000-0000-4000-8000-000000420035": {
+  "name": "Ghee",
+  "fdcId": 173412,
+  "release": "2018-04",
+  "usda": "Butter oil, anhydrous"
+ },
+ "00000000-0000-4000-8000-000000420036": {
+  "name": "Basmati rice (white, long-grain)",
+  "fdcId": 168877,
+  "release": "2018-04",
+  "usda": "Rice, white, long-grain, regular, raw, enriched"
+ },
+ "00000000-0000-4000-8000-000000420037": {
+  "name": "Broccoli",
+  "fdcId": 170379,
+  "release": "2018-04",
+  "usda": "Broccoli, raw"
+ },
+ "00000000-0000-4000-8000-000000420038": {
+  "name": "Soy sauce",
+  "fdcId": 174277,
+  "release": "2018-04",
+  "usda": "Soy sauce made from soy and wheat (shoyu)"
+ },
+ "00000000-0000-4000-8000-000000420039": {
+  "name": "Toasted sesame oil",
+  "fdcId": 171016,
+  "release": "2018-04",
+  "usda": "Oil, sesame, salad or cooking"
+ },
+ "00000000-0000-4000-8000-000000420040": {
+  "name": "Sesame seeds",
+  "fdcId": 170150,
+  "release": "2018-04",
+  "usda": "Seeds, sesame seeds, whole, dried"
+ },
+ "00000000-0000-4000-8000-000000420041": {
+  "name": "Cornstarch",
+  "fdcId": 169698,
+  "release": "2018-04",
+  "usda": "Cornstarch"
+ },
+ "00000000-0000-4000-8000-000000420042": {
+  "name": "Dried wheat noodles",
+  "fdcId": 168908,
+  "release": "2018-04",
+  "usda": "Noodles, japanese, somen, dry"
+ },
+ "00000000-0000-4000-8000-000000420043": {
+  "name": "Dried egg noodles",
+  "fdcId": 169731,
+  "release": "2018-04",
+  "usda": "Noodles, egg, dry, enriched"
+ },
+ "00000000-0000-4000-8000-000000420044": {
+  "name": "Fresh market noodles",
+  "fdcId": 168905,
+  "release": "2018-04",
+  "usda": "Noodles, chinese, chow mein"
+ },
+ "00000000-0000-4000-8000-000000420045": {
+  "name": "Shelled edamame",
+  "fdcId": 168411,
+  "release": "2018-04",
+  "usda": "Edamame, frozen, prepared"
+ },
+ "00000000-0000-4000-8000-000000420046": {
+  "name": "Carrot",
+  "fdcId": 170393,
+  "release": "2018-04",
+  "usda": "Carrots, raw"
+ },
+ "00000000-0000-4000-8000-000000420047": {
+  "name": "Cucumber",
+  "fdcId": 168409,
+  "release": "2018-04",
+  "usda": "Cucumber, with peel, raw"
+ },
+ "00000000-0000-4000-8000-000000420048": {
+  "name": "Lime juice",
+  "fdcId": 168156,
+  "release": "2018-04",
+  "usda": "Lime juice, raw"
+ },
+ "00000000-0000-4000-8000-000000420049": {
+  "name": "Lemon juice",
+  "fdcId": 167747,
+  "release": "2018-04",
+  "usda": "Lemon juice, raw"
+ },
+ "00000000-0000-4000-8000-000000420050": {
+  "name": "Quinoa",
+  "fdcId": 168874,
+  "release": "2018-04",
+  "usda": "Quinoa, uncooked"
+ },
+ "00000000-0000-4000-8000-000000420051": {
+  "name": "Tahini",
+  "fdcId": 170189,
+  "release": "2018-04",
+  "usda": "Seeds, sesame butter, tahini, from roasted and toasted kernels"
+ },
+ "00000000-0000-4000-8000-000000420052": {
+  "name": "Flat-leaf parsley",
+  "fdcId": 170416,
+  "release": "2018-04",
+  "usda": "Parsley, fresh"
+ },
+ "00000000-0000-4000-8000-000000420053": {
+  "name": "Water",
+  "fdcId": 173647,
+  "release": "2018-04",
+  "usda": "Beverages, water, tap, drinking"
+ },
+ "00000000-0000-4000-8000-000000420054": {
+  "name": "Fresh coriander",
+  "fdcId": 169997,
+  "release": "2018-04",
+  "usda": "Coriander (cilantro) leaves, raw"
+ },
+ "00000000-0000-4000-8000-000000420055": {
+  "name": "Green chili",
+  "fdcId": 170497,
+  "release": "2018-04",
+  "usda": "Peppers, hot chili, green, raw"
+ },
+ "00000000-0000-4000-8000-000000001111": {
+  "name": "Split red lentils",
+  "fdcId": 174284,
+  "release": "2018-04",
+  "usda": "Lentils, pink or red, raw"
+ },
+ "00000000-0000-4000-8000-000000001211": {
+  "name": "Vegetable stock",
+  "fdcId": 171583,
+  "release": "2018-04",
+  "usda": "Soup, vegetable broth, ready to serve"
+ },
+ "00000000-0000-4000-8000-000000001311": {
+  "name": "Butter",
+  "fdcId": 173410,
+  "release": "2018-04",
+  "usda": "Butter, salted"
+ }
+}
